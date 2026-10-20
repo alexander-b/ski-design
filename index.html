@@ -44,6 +44,14 @@ a{color:inherit}
 .fade.l{left:0;background:linear-gradient(90deg,#fff,rgba(255,255,255,0))}
 .fade.r{right:0;background:linear-gradient(270deg,#fff,rgba(255,255,255,0))}
 .hint{text-align:center;font-size:12px;color:var(--mut);margin-top:8px}
+.mode{display:flex;justify-content:center;gap:8px;padding:8px 24px 0}
+.pill.sm{font-size:14px;padding:10px 18px}
+.bh{padding:28px 0 0}
+.bh .ev{height:auto;font-size:15px;color:var(--mut)}
+.tl{padding-bottom:36px}
+.tl[hidden],.bh[hidden],.pills[hidden]{display:none}
+.yr.br{text-transform:none}
+.grid{min-height:60vh}
 
 /* ---------- pills ---------- */
 .pills{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;padding:34px 24px 30px}
@@ -123,8 +131,9 @@ a{color:inherit}
 </head>
 <body>
 <div class="top"><b>Беговые лыжи · архив дизайна</b><span id="count"></span></div>
+<nav class="mode" id="mode"><button class="pill sm on" data-m="year">По году</button><button class="pill sm" data-m="brand">По бренду</button></nav>
 
-<section class="tl" aria-label="Хронология">
+<section class="tl" id="tl" aria-label="Хронология">
   <h1 class="yr" id="yr">1980-е</h1>
   <div class="ev" id="ev" aria-live="polite"></div>
   <div class="ruler" id="ruler" tabindex="0" aria-label="Перетащите шкалу, чтобы выбрать год">
@@ -132,10 +141,11 @@ a{color:inherit}
     <div class="needle"></div>
     <div class="fade l"></div><div class="fade r"></div>
   </div>
-  <div class="hint">Тяни шкалу — сетка сортируется вокруг выбранного года</div>
+  <div class="hint">Тяни шкалу — ниже лыжи и материалы этого времени</div>
 </section>
 
-<nav class="pills" id="pills"></nav>
+<section class="bh" id="bh" hidden><h1 class="yr" id="bt">Все</h1><div class="ev" id="bd"></div></section>
+<nav class="pills" id="pills" hidden></nav>
 <main class="grid" id="grid"></main>
 
 <section class="list">
@@ -223,7 +233,7 @@ const EVENTS=[...R.map(([b,y,t,s])=>({b,y,yn:yk(y),t:t.replace(new RegExp('^'+(N
  ...(typeof EXTRA!=='undefined'?EXTRA:[]).map(([b,y,t,u])=>({b,y,yn:yk(y),t,u}))].sort((a,b)=>a.yn-b.yn);
 
 const Y0=1970,Y1=2027;
-let brand='all',Y=1985,items=[];
+let brand='all',Y=1985,items=[],mode='year';
 
 // ---------- pills ----------
 const pills=document.getElementById('pills');
@@ -235,7 +245,7 @@ function drawPills(){
     const el=document.createElement('button');el.className='pill'+(b===brand?' on':'');
     if(b!=='all'){const i=document.createElement('i');i.style.background=COL[b];el.append(i)}
     el.append(b==='all'?'Все':NAME[b]);const sm=document.createElement('small');sm.textContent=n;el.append(sm);
-    el.onclick=()=>{brand=b;drawPills();layout()};pills.append(el);
+    el.onclick=()=>{brand=b;drawPills();drawBrand();layout();saveHash()};pills.append(el);
   }
 }
 
@@ -257,10 +267,16 @@ function card(x){
 function ncols(){const w=innerWidth;return w>1500?5:w>1100?4:w>760?3:2}
 let lastKey='';
 function layout(force){
-  items=all.filter(x=>!x.dead&&(brand==='all'||x.b===brand)).sort((a,b)=>Math.abs(a.yn-Y)-Math.abs(b.yn-Y)||a.yn-b.yn||a.i-b.i);
-  const key=brand+'|'+ncols()+'|'+items.map(x=>x.i).join(',');
+  if(mode==='year'){
+    const near=all.filter(x=>!x.dead).sort((a,b)=>Math.abs(a.yn-Y)-Math.abs(b.yn-Y)||a.yn-b.yn||a.i-b.i);
+    items=near.filter(x=>Math.abs(x.yn-Y)<=2);
+    if(items.length<12)items=near.slice(0,12);
+  }else{
+    items=all.filter(x=>!x.dead&&(brand==='all'||x.b===brand)).sort((a,b)=>b.yn-a.yn||a.i-b.i);
+  }
+  const key=mode+brand+'|'+ncols()+'|'+items.map(x=>x.i).join(',');
   document.getElementById('count').textContent=items.length+' изображений';
-  for(const x of items){const c=card(x);c.classList.toggle('far',Math.abs(x.yn-Y)>8)}
+  
   if(key===lastKey&&!force)return;lastKey=key;
   const n=ncols(),cols=[],hs=[];grid.textContent='';
   for(let i=0;i<n;i++){const c=document.createElement('div');c.className='col';grid.append(c);cols.push(c);hs.push(0)}
@@ -363,8 +379,23 @@ addEventListener('resize',()=>{if(lb.classList.contains('open'))fitRot()});
 
 // ---------- init ----------
 buildRuler();drawPills();
-const h=+location.hash.slice(1);setY(h>=Y0&&h<=Y1?h:1985,true);layout();
-addEventListener('hashchange',()=>{const h=+location.hash.slice(1);if(h){setY(h);layout()}});
+function drawBrand(){
+  const s=all.filter(x=>brand==='all'||x.b===brand);const ys=s.map(x=>x.yn);
+  document.getElementById('bt').textContent=brand==='all'?'Все бренды':NAME[brand];
+  document.getElementById('bd').textContent=s.length+' '+plural(s.length,['изображение','изображения','изображений'])+(ys.length?' · '+Math.floor(Math.min(...ys))+'–'+Math.floor(Math.max(...ys)):'')+' · от новых к старым';
+}
+function setMode(m){
+  mode=m;document.querySelectorAll('#mode .pill').forEach(b=>b.classList.toggle('on',b.dataset.m===m));
+  document.getElementById('tl').hidden=m!=='year';document.getElementById('bh').hidden=m!=='brand';pills.hidden=m!=='brand';
+  if(m==='year'){setY(Math.round(Y),true)}else{drawPills();drawBrand()}
+  layout(true);saveHash();
+}
+function saveHash(){history.replaceState(null,'',mode==='year'?'#'+Math.round(Y):'#'+brand)}
+document.querySelectorAll('#mode .pill').forEach(b=>b.onclick=()=>setMode(b.dataset.m));
+const _l=layout;layout=function(f){_l(f);if(mode==='year')saveHash()};
+const h=location.hash.slice(1);
+if(NAME[h]||h==='all'){brand=h;mode='brand'}else if(+h>=Y0&&+h<=Y1){Y=+h}
+setY(Y,true);setMode(mode);
 </script>
 </body>
 </html>
