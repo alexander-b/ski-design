@@ -33,5 +33,6 @@ def one(r):
             err=str(e);time.sleep(5*(a+1))
     fail.append([r['id'],r['url'],err])
 with ThreadPoolExecutor(8) as ex: list(ex.map(one,rows))
+import subprocess; subprocess.run(["python","tools/whiten.py"])
 json.dump(fail,open('tools/failed.json','w'),indent=0)
 print('failed',len(fail))

@@ -96,10 +96,6 @@
 "url": "https://cdn.shopify.com/s/files/1/0938/8546/4904/files/ato-pim-bfe34378fb9a98cc-8e73aedbf147e8be_5b08dded-c589-43ad-93ce-e2921b14113c.webp"
 },
 {
-"id": "atomic/2026-atomic-savor-bc-64-posigrip",
-"url": "https://cdn.shopify.com/s/files/1/0938/8546/4904/files/ato-pim-384a83198ae6da68-1cddc32a3815379c_ee929d30-d718-4ffd-b86a-e74afb80d25d.webp"
-},
-{
 "id": "atomic/2026-atomic-savor-xc-posigrip",
 "url": "https://cdn.shopify.com/s/files/1/0938/8546/4904/files/ato-pim-56dc11bb804ecb95-36a8dbf0ca1f8fc5_cc9d025b-e683-42b5-9691-3107a61e53bf.webp"
 },
@@ -292,36 +288,8 @@
 "url": "https://www.fischersports.com/media/3072x4096/b2/8b/1e/1789998114/np30524_twin_skin_cruiser_ef_03.png"
 },
 {
-"id": "fischer/2025-fischer-adventure-56-crown-xtralite",
-"url": "https://www.fischersports.com/media/3072x4096/be/35/32/1789998146/n50025_adventure_56_crown_xtralite_03.png"
-},
-{
-"id": "fischer/2025-fischer-adventure-62-crown-xtralite",
-"url": "https://www.fischersports.com/media/3072x4096/1b/16/4d/1789998155/nv50125_adventure_62_crown_xtralite_03.png"
-},
-{
-"id": "fischer/2025-fischer-spider-62-crown-xtralite",
-"url": "https://www.fischersports.com/media/3072x4096/da/18/dd/1789998159/nv50625_spider_62_crown_xtralite_03.png"
-},
-{
-"id": "fischer/2023-fischer-outback-68-crown-skin-xtralite",
-"url": "https://www.fischersports.com/media/3072x4096/f6/05/3c/1789998162/n51023_outback_68_crown_skin_xtralite_03.png"
-},
-{
-"id": "fischer/2024-fischer-traverse-78-crown-skin-xtralite",
-"url": "https://www.fischersports.com/media/3072x4096/28/7a/8f/1789998166/n51524_traverse_78_crown_skin_xtralite_03.png"
-},
-{
 "id": "fischer/2023-fischer-country-crown-60",
 "url": "https://www.fischersports.com/media/3072x4096/cb/42/4f/1789998181/n54023_country_crown_60_03.png"
-},
-{
-"id": "fischer/2025-fischer-transnordic-66-easy-skin-xtralite",
-"url": "https://www.fischersports.com/media/3072x4096/8a/0c/4e/1789998185/n55025_transnordic_66_easy_skin_xtralite_03.png"
-},
-{
-"id": "fischer/2024-fischer-transnordic-82-easy-skin-xtralite",
-"url": "https://www.fischersports.com/media/3072x4096/56/b8/af/1789998189/n56024_transnordic_82_easy_skin_xtralite_03.png"
 },
 {
 "id": "fischer/2025-fischer-speedmax-100-skate-junior",
@@ -420,28 +388,12 @@
 "url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dw56b36659/images/large/RHOCV01000_72DPI_01_v00.jpg?sh=2400"
 },
 {
-"id": "rossignol/2022-rossignol-xp-100-positrack",
-"url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dw1ba1843e/images/large/RHLZF01000_72DPI_01_v00.jpg?sh=2400"
-},
-{
-"id": "rossignol/2022-rossignol-bc-65-positrack",
-"url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dw6b95ddff/images/large/RHLZD02000_72DPI_01_v00.jpg?sh=2400"
-},
-{
 "id": "rossignol/2023-rossignol-evo-xt-65-positrack",
 "url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dw5bedd7a1/images/large/RHMZD02000_72DPI_01_v00.jpg?sh=2400"
 },
 {
-"id": "rossignol/2025-rossignol-bc-85-positrack",
-"url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dw70f6957f/images/large/RHOZI01000_72DPI_01_v00.jpg?sh=2400"
-},
-{
 "id": "rossignol/2023-rossignol-evo-ot-60-positrack",
 "url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dw6d44230a/images/large/RHMZC03000_72DPI_01_v00.jpg?sh=2400"
-},
-{
-"id": "rossignol/2025-rossignol-xp-105-positrack",
-"url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dw867d895b/images/large/RHOZJ01000_72DPI_01_v00.jpg?sh=2400"
 },
 {
 "id": "rossignol/2025-rossignol-delta-comp-r-skin",
@@ -454,10 +406,6 @@
 {
 "id": "rossignol/2023-rossignol-xt-escape-positrack",
 "url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dwadeef26d/images/large/RHMZA04000_72DPI_01_v00.jpg?sh=2400"
-},
-{
-"id": "rossignol/2022-rossignol-bc-80-positrack",
-"url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dwd84115d8/images/large/RHLZE01000_72DPI_01_v00.jpg?sh=2400"
 },
 {
 "id": "rossignol/2023-rossignol-evo-xt-60-positrack",
@@ -516,30 +464,6 @@
 "url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_snowpup_MD240500?w=2400&bg=white"
 },
 {
-"id": "madshus/2026-madshus-panorama-m78",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_panorama-m78_N2103004?w=2400&bg=white"
-},
-{
-"id": "madshus/2026-madshus-panorama-m68",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_panorama-m68_N2103003?w=2400&bg=white"
-},
-{
-"id": "madshus/2026-madshus-panorama-m62",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_panorama-m62_N2103002?w=2400&bg=white"
-},
-{
-"id": "madshus/2026-madshus-panorama-sf-62",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_panorama-sf-62_N2303004?w=2400&bg=white"
-},
-{
-"id": "madshus/2026-madshus-fjelltech-m50-skin",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_fjelltech-m50-skin_N2103001?w=2400&bg=white"
-},
-{
-"id": "madshus/2026-madshus-fjelltech-m44-skin",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_fjelltech-m44-skin_N2103015?w=2400&bg=white"
-},
-{
 "id": "atomic/2010-atomic-pro-skintec",
 "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Atomic_%27Pro_Skintec%27_001.jpg"
 },
@@ -556,16 +480,8 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Atomic_%27Redster_Skintec%27_001.jpg"
 },
 {
-"id": "atomic/2010-atomic-skintec",
-"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Atomic_%27Skintec%27_Skis_001.jpg/1920px-Atomic_%27Skintec%27_Skis_001.jpg"
-},
-{
 "id": "rossignol/2015-rossignol-zymax-skating",
 "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Rossignol_Zymax_Skating.png"
-},
-{
-"id": "madshus/2014-madshus-redline-carbon-skate",
-"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Ski_fra_Madshus.JPG/1920px-Ski_fra_Madshus.JPG"
 },
 {
 "id": "bind/1985-adidas-sds",
@@ -604,10 +520,6 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/20180128_FIS_NC_WC_Seefeld_Dario_Cologna_850_2446.jpg/1920px-20180128_FIS_NC_WC_Seefeld_Dario_Cologna_850_2446.jpg"
 },
 {
-"id": "race/2018-2018-4",
-"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/20180128_FIS_CC_World_Cup_Seefeld_Hans_Christer_Holund_850_2414.jpg/1920px-20180128_FIS_CC_World_Cup_Seefeld_Hans_Christer_Holund_850_2414.jpg"
-},
-{
 "id": "race/2007-2007",
 "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Priit_Narusk_at_Tour_de_Ski.jpg/1920px-Priit_Narusk_at_Tour_de_Ski.jpg"
 },
@@ -618,10 +530,6 @@
 {
 "id": "race/2005-2005",
 "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/FIS_World_Cup_Vernon%2C_Canada_2005_%2832733843800%29.jpg/1920px-FIS_World_Cup_Vernon%2C_Canada_2005_%2832733843800%29.jpg"
-},
-{
-"id": "race/2017-2017",
-"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/2016%E2%80%9317_FIS_Cross-Country_World_Cup_in_Ulricehamn.jpg/1920px-2016%E2%80%9317_FIS_Cross-Country_World_Cup_in_Ulricehamn.jpg"
 },
 {
 "id": "race/2009-2009",
@@ -712,32 +620,8 @@
 "url": "https://web.archive.org/web/20201223010257im_/https://www.fischersports.com/media/image/09/70/8d/n30018_orbiter_ef_01_915x915@2x.jpg"
 },
 {
-"id": "fischer/2018-fischer-e109-easy-skin-xtralite",
-"url": "https://web.archive.org/web/20201223010405im_/https://www.fischersports.com/media/image/15/9a/3a/n56018_e109_easy_skin_xtralite_01_915x915@2x.jpg"
-},
-{
-"id": "fischer/2018-fischer-e99-crown-xtralite",
-"url": "https://web.archive.org/web/20201223005907im_/https://www.fischersports.com/media/image/93/5f/37/n55518_e99_crown_xtralite_01_915x915@2x.jpg"
-},
-{
-"id": "fischer/2018-fischer-traverse-78-crown-skin",
-"url": "https://web.archive.org/web/20201223010357im_/https://www.fischersports.com/media/image/7c/c3/cd/n51518_traverse_78_crown_skin_01_1280x1280@2x.jpg"
-},
-{
-"id": "fischer/2018-fischer-adventure-62-crown",
-"url": "https://web.archive.org/web/20210204164007im_/https://www.fischersports.com/media/image/b7/b3/ae/n50118_adventure_62_crown_01_915x915.jpg"
-},
-{
 "id": "fischer/2018-fischer-twin-skin-power-ef",
 "url": "https://web.archive.org/web/20201223010250im_/https://www.fischersports.com/media/image/ba/12/c4/n42018_twin_skin_power_ef_01_915x915@2x.jpg"
-},
-{
-"id": "fischer/2018-fischer-s-bound-98-crown-skin",
-"url": "https://web.archive.org/web/20201223010357im_/https://www.fischersports.com/media/image/30/28/f2/n52518_s_bound_98_crown_skin_01_915x915@2x.jpg"
-},
-{
-"id": "fischer/2018-fischer-s-bound-112-crown-skin",
-"url": "https://web.archive.org/web/20201223010402im_/https://www.fischersports.com/media/image/3a/76/6f/n53018_s_bound_112_crown_skin_01_915x915@2x.jpg"
 },
 {
 "id": "fischer/2018-fischer-twin-skin-speedmax",
@@ -756,10 +640,6 @@
 "url": "https://web.archive.org/web/20201223010304im_/https://www.fischersports.com/media/image/4b/86/e9/n40518_twin_skin_superlite_ef_01_915x915@2x.jpg"
 },
 {
-"id": "fischer/2018-fischer-spider-62-crown",
-"url": "https://web.archive.org/web/20210205090738im_/https://www.fischersports.com/media/image/49/16/54/n50518_spider_62_crown_01_915x915.jpg"
-},
-{
 "id": "fischer/2018-fischer-apollo-ef",
 "url": "https://web.archive.org/web/20201223010300im_/https://www.fischersports.com/media/image/51/61/b7/n32018_apollo_ef_01_915x915@2x.jpg"
 },
@@ -776,14 +656,6 @@
 "url": "https://web.archive.org/web/20201223010254im_/https://www.fischersports.com/media/image/e4/b0/93/n40018_supreme_crown_ef_01_1280x1280@2x.jpg"
 },
 {
-"id": "fischer/2018-fischer-e89-easy-skin-xtralite",
-"url": "https://web.archive.org/web/20201223010403im_/https://www.fischersports.com/media/image/73/ec/85/n54518_e89_easy_skin_xtralite_01_915x915@2x.jpg"
-},
-{
-"id": "fischer/2018-fischer-outback-68-crown-skin",
-"url": "https://web.archive.org/web/20210517213024im_/https://www.fischersports.com/media/image/e9/ce/08/n51018_outback_68_crown_skin_01_915x915.jpg"
-},
-{
 "id": "fischer/2018-fischer-twin-skin-cruiser-ef",
 "url": "https://web.archive.org/web/20201223010257im_/https://www.fischersports.com/media/image/9b/dd/58/n30518_twin_skin_cruiser_ef_01_915x915@2x.jpg"
 },
@@ -792,20 +664,12 @@
 "url": "https://web.archive.org/web/20201223010302im_/https://www.fischersports.com/media/image/a7/e7/d2/n36018_inspire_my_style_ef_01_915x915@2x.jpg"
 },
 {
-"id": "fischer/2018-fischer-e99-easy-skin-xtralite",
-"url": "https://web.archive.org/web/20201223010404im_/https://www.fischersports.com/media/image/bb/8a/b3/n55018_e99_easy_skin_xtralite_01_915x915@2x.jpg"
-},
-{
 "id": "fischer/2018-fischer-mystique-my-style-ef",
 "url": "https://web.archive.org/web/20201223010302im_/https://www.fischersports.com/media/image/be/4e/6f/n37018_mystique_my_style_ef_01_915x915@2x.jpg"
 },
 {
 "id": "fischer/2018-fischer-fibre-crown-ef",
 "url": "https://web.archive.org/web/20201223010254im_/https://www.fischersports.com/media/image/d3/b1/c7/n43018_fibre_crown_ef_01_915x915@2x.jpg"
-},
-{
-"id": "fischer/2018-fischer-excursion-88-crown-skin",
-"url": "https://web.archive.org/web/20201223010357im_/https://www.fischersports.com/media/image/e5/43/df/n52018_excursion_88_crown_skin_01_915x915@2x.jpg"
 },
 {
 "id": "fischer/2019-fischer-twin-skin-carbon",
@@ -1092,24 +956,12 @@
 "url": "https://web.archive.org/web/20230422223812im_/https://www.fischersports.com/media/image/cd/50/47/n30522_twin_skin_cruiser_ef_01_915x915@2x.jpg"
 },
 {
-"id": "fischer/2023-fischer-s-bound-98-crown-dual-skin-xtralite",
-"url": "https://web.archive.org/web/20231105052719im_/https://www.fischersports.com/media/image/fa/a8/52/n52523_s-bound_98_crown_dual_skin_xtralite_01_915x915@2x.jpg"
-},
-{
 "id": "fischer/2023-fischer-aerolite-combi-60",
 "url": "https://web.archive.org/web/20231105055212im_/https://www.fischersports.com/media/image/fd/8d/1b/n27523_aerolite_combi_60_01_915x915@2x.jpg"
 },
 {
-"id": "fischer/2023-fischer-transnordic-66-easy-skin-xtralite",
-"url": "https://web.archive.org/web/20231105054401im_/https://www.fischersports.com/media/image/32/f8/f5/n55023_transnordic_66_easy_skin_xtralite_01_915x915@2x.jpg"
-},
-{
 "id": "fischer/2023-fischer-aerolite-skate-60",
 "url": "https://web.archive.org/web/20231105151147im_/https://www.fischersports.com/media/image/cf/c4/bb/n27023_aerolite_skate_60_01_915x915@2x.jpg"
-},
-{
-"id": "fischer/2023-fischer-transnordic-66-crown-xtralite",
-"url": "https://web.archive.org/web/20231105154141im_/https://www.fischersports.com/media/image/e8/08/40/n55523_transnordic_66_crown_xtralite_01_915x915@2x.jpg"
 },
 {
 "id": "madshus/2023-madshus-active-mgv",
@@ -1126,10 +978,6 @@
 {
 "id": "madshus/2023-madshus-nordic-pro-skin",
 "url": "https://cdn.media.amplience.net/s/madshus/madshus_2223_nordic-pro-skin_N2103030?w=2400&bg=white"
-},
-{
-"id": "madshus/2023-madshus-panorama-t55-intelligrip",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2223_panorama-t55-intelligrip-transition_N2203002?w=2400&bg=white"
 },
 {
 "id": "madshus/2023-madshus-racelight-mg",
@@ -1222,10 +1070,6 @@
 {
 "id": "rossignol/2022-rossignol-x-ium-skating",
 "url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dw01b5fa51/images/large/RHLCQ03_XIUM_SKATING_RGB72DPI_01.jpg?sh=2400"
-},
-{
-"id": "rossignol/2022-rossignol-bc-120-positrack",
-"url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dw022f2d10/images/large/RHLZH01_BC120POSITRACK_72DPI_01.jpg?sh=2400"
 },
 {
 "id": "rossignol/2020-rossignol-x-ium-classic-premium-c2-ifp",
