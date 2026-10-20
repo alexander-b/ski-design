@@ -1,1 +1,37 @@
-[]
+[
+[
+"salomon/g-2011-salomon-s-lab-skate-pro",
+"https://web.archive.org/web/2011id_/http://www.salomon.com/medias/products/zoom/126532.jpg",
+"HTTP Error 404: NOT FOUND"
+],
+[
+"salomon/2013-salomon-s-lab-equipe-10-classic-cold",
+"https://web.archive.org/web/2013id_/http://www.salomon.com/medias/products/product3/326844.jpg",
+"<urlopen error [Errno 111] Connection refused>"
+],
+[
+"salomon/2013-salomon-s-lab-equipe-10-skate-cold",
+"https://web.archive.org/web/2013id_/http://www.salomon.com/medias/products/product3/126970.jpg",
+"HTTP Error 404: NOT FOUND"
+],
+[
+"salomon/g-2013-salomon-s-lab-skiathlon",
+"https://web.archive.org/web/2013id_/http://www.salomon.com/medias/products/product3/126540.jpg",
+"HTTP Error 404: NOT FOUND"
+],
+[
+"salomon/g-2013-salomon-sns-pilot-equipe-skate",
+"https://web.archive.org/web/2013id_/http://www.salomon.com/medias/products/product3/786094.jpg",
+"HTTP Error 404: NOT FOUND"
+],
+[
+"salomon/g-2013-salomon-sns-profil-equipe-classic",
+"https://web.archive.org/web/2013id_/http://www.salomon.com/medias/products/product3/786121.jpg",
+"HTTP Error 404: NOT FOUND"
+],
+[
+"salomon/g-2013-salomon-s-lab-classic",
+"https://web.archive.org/web/2013id_/http://www.salomon.com/medias/products/product3/325711.jpg",
+"<urlopen error [Errno 111] Connection refused>"
+]
+]
