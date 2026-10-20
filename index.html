@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>XC Archive — дизайн беговых лыж 1985–2007</title>
+<meta name="description" content="Архив дизайна беговых лыж Fischer, Atomic, Madshus и Rossignol: сканы журналов и каталогов 1985–2007.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,300..900;1,62..125,300..900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Norgram x Fischer: editorial numbered sections, quiet grid, one loud yellow */
+:root{
+  --paper:#f4f4f1; --ink:#0c0c0b; --soft:#6f6f6a; --rule:#d9d9d3; --card:#ebebe6;
+  --yellow:#ffe100; --on-yellow:#0c0c0b;
+  --display:"Archivo","Arial Narrow",system-ui,sans-serif;
+  --body:"Archivo",system-ui,-apple-system,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --gut:max(20px,env(safe-area-inset-left,0px));
+}
+@media (prefers-color-scheme:dark){:root{--paper:#0e0e0d;--ink:#f1f1ec;--soft:#8e8e88;--rule:#2a2a27;--card:#191917;color-scheme:dark}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.5 var(--body);font-variation-settings:"wdth" 100;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img{max-width:100%;display:block}
+.wrap{padding-left:var(--gut);padding-right:max(20px,env(safe-area-inset-right,0px));max-width:1440px;margin:0 auto}
+.mono{font-family:var(--mono);font-size:12px;letter-spacing:.02em}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+
+/* top bar */
+.top{position:sticky;top:0;z-index:10;background:var(--paper);border-bottom:1px solid var(--rule)}
+.top .wrap{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:center;padding-block:14px}
+.logo{font:800 15px/1 var(--display);font-variation-settings:"wdth" 75;text-transform:uppercase;letter-spacing:.04em;text-decoration:none;display:flex;gap:8px;align-items:center}
+.logo i{display:inline-block;width:14px;height:14px;background:var(--yellow);transform:skewX(-14deg)}
+.nav{display:flex;gap:22px;font-family:var(--mono);font-size:12px}
+.nav a{text-decoration:none;color:var(--soft)}
+.nav a:hover{color:var(--ink)}
+.nav b{font-weight:400;color:var(--ink)}
+
+/* hero */
+.hero{padding-block:clamp(48px,9vw,120px) 40px;border-bottom:1px solid var(--rule)}
+.hero .kick{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;color:var(--soft);margin-bottom:28px}
+.hero h1{margin:0;font:900 clamp(56px,13.5vw,220px)/.82 var(--display);font-variation-settings:"wdth" 62;text-transform:uppercase;letter-spacing:-.01em;font-style:italic}
+.hero h1 .y{background:var(--yellow);color:var(--on-yellow);padding:0 .06em;display:inline-block;transform:translateY(-.02em)}
+.facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;margin-top:48px;border-top:1px solid var(--ink)}
+.facts div{padding:14px 16px 0 0;display:grid;gap:4px}
+.facts dt{color:var(--soft)}
+.facts dd{margin:0;font:700 28px/1.1 var(--display);font-variation-settings:"wdth" 75}
+.lede{max-width:640px;margin:40px 0 0;font-size:19px;line-height:1.45}
+
+/* sections */
+.sec{padding-block:72px;border-bottom:1px solid var(--rule)}
+.sechead{display:grid;grid-template-columns:200px 1fr auto;gap:24px;align-items:baseline;margin-bottom:36px}
+.sechead .n{color:var(--soft)}
+.sechead h2{margin:0;font:800 clamp(32px,4.4vw,56px)/1 var(--display);font-variation-settings:"wdth" 70;text-transform:uppercase}
+.filters{display:flex;gap:6px;flex-wrap:wrap}
+.filters button{font:500 12px var(--mono);background:transparent;color:var(--ink);border:1px solid var(--rule);padding:7px 12px;cursor:pointer;display:flex;gap:7px;align-items:center}
+.filters button[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.filters button span{width:8px;height:8px;border-radius:50%;display:inline-block}
+
+/* gallery */
+.grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:48px 24px}
+.item{grid-column:span 4;display:grid;gap:12px;align-content:start;min-width:0}
+.item.wide{grid-column:span 8}
+.item button{all:unset;cursor:zoom-in;display:block;background:var(--card);overflow:hidden}
+.item img{width:100%;height:auto;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.item button:hover img{transform:scale(1.025)}
+.item button:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+.meta{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:baseline;border-top:1px solid var(--ink);padding-top:10px}
+.meta .code{font-family:var(--mono);font-size:12px}
+.meta .season{font-family:var(--mono);font-size:12px;color:var(--soft);text-align:right}
+.meta h3{margin:0;font:700 15px/1.25 var(--body);grid-column:2}
+.item p{margin:0;font-size:14px;color:var(--soft);line-height:1.45}
+.item .src{font-family:var(--mono);font-size:11.5px;color:var(--soft)}
+.item .src a{text-decoration:underline;text-underline-offset:2px}
+.tag{display:inline-block;font:600 10.5px var(--mono);text-transform:uppercase;letter-spacing:.06em;padding:2px 6px;margin-right:4px;border:1px solid var(--rule)}
+.tag.fischer{background:var(--yellow);color:var(--on-yellow);border-color:var(--yellow)}
+
+/* timeline */
+.tl{display:grid;border-top:1px solid var(--ink)}
+.tl .r{display:grid;grid-template-columns:200px 140px 1fr;gap:24px;padding:16px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+.tl .r .y{font:700 22px/1 var(--display);font-variation-settings:"wdth" 70}
+.tl .r .b{font-family:var(--mono);font-size:12px;color:var(--soft);text-transform:uppercase}
+.tl .r .t{max-width:70ch}
+.tl .r .t a{font-family:var(--mono);font-size:11.5px;color:var(--soft);margin-left:6px}
+.tl .r.fischer .y{box-shadow:inset 0 -.32em 0 var(--yellow)}
+.tl .r.memo .t{font-style:italic}
+
+/* sources */
+.cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px 24px}
+.cols div{display:grid;gap:8px;align-content:start;border-top:1px solid var(--ink);padding-top:12px;min-width:0}
+.cols h3{margin:0;font:700 17px/1.25 var(--body)}
+.cols p{margin:0;font-size:14.5px;color:var(--soft)}
+.cols a{font-family:var(--mono);font-size:12px}
+
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-block:28px 40px;color:var(--soft)}
+footer .big{font:900 clamp(40px,8vw,120px)/.85 var(--display);font-variation-settings:"wdth" 62;font-style:italic;text-transform:uppercase;color:var(--ink);width:100%}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:50;background:rgba(12,12,11,.96);color:#f1f1ec;display:grid;grid-template-rows:auto 1fr;padding:env(safe-area-inset-top,0px) env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px)}
+.lb[hidden]{display:none}
+.lb .bar{display:grid;grid-template-columns:1fr auto auto auto;gap:8px;align-items:center;padding:12px 20px;border-bottom:1px solid #2a2a27}
+.lb .bar span{font-family:var(--mono);font-size:12px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lb button{font:500 12px var(--mono);background:none;color:#f1f1ec;border:1px solid #3a3a36;padding:7px 12px;cursor:pointer}
+.lb button:hover{background:var(--yellow);color:#0c0c0b;border-color:var(--yellow)}
+.lb .sc{overflow:auto;display:grid;justify-items:center;align-items:start;padding:24px 20px 40px}
+.lb img{max-width:min(100%,1300px);height:auto}
+
+@media (max-width:900px){
+  .item,.item.wide{grid-column:span 6}
+  .sechead{grid-template-columns:1fr;gap:12px}
+  .tl .r{grid-template-columns:110px 1fr;gap:6px 16px}
+  .tl .r .t{grid-column:1/-1}
+  .cols{grid-template-columns:1fr 1fr}
+  .facts{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:20px}
+}
+@media (max-width:600px){
+  .item,.item.wide{grid-column:1/-1}
+  .nav{display:none}
+  .cols{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){.item img{transition:none}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="logo" href="#"><i></i>XC Archive®</a>
+  <nav class="nav" aria-label="Разделы"><a href="#gallery"><b>N°1</b> Галерея</a><a href="#timeline"><b>N°2</b> Хронология</a><a href="#sources"><b>N°3</b> Источники</a></nav>
+</div></header>
+
+<main>
+<section class="hero"><div class="wrap">
+  <div class="kick mono"><span>Fischer · Atomic · Madshus · Rossignol</span><span>Личный архив, собран в октябре 2026</span></div>
+  <h1>Беговые<br>лыжи <span class="y">85—07</span></h1>
+  <p class="lede">Как менялась графика гоночных беговых лыж от первых коньковых моделей середины 80-х до карбоновых Speedmax-времён. Сканы тестов и рекламы из журналов Skiing и Snow Country, обложки каталогов и хронология моделей.</p>
+  <dl class="facts mono">
+    <div><dt>Сканов</dt><dd id="fScans">17</dd></div>
+    <div><dt>Брендов</dt><dd>4</dd></div>
+    <div><dt>Сезоны</dt><dd>1985—2008</dd></div>
+    <div><dt>Источники</dt><dd>2 журнала, 2 каталога</dd></div>
+  </dl>
+</div></section>
+
+<section class="sec" id="gallery"><div class="wrap">
+  <div class="sechead">
+    <span class="n mono">N°1 — Галерея</span>
+    <h2>Сканы по сезонам</h2>
+    <div class="filters" role="group" aria-label="Фильтр по бренду">
+      <button type="button" data-g="all" aria-pressed="true">Все</button>
+      <button type="button" data-g="fischer" aria-pressed="false"><span style="background:var(--yellow)"></span>Fischer</button>
+      <button type="button" data-g="atomic" aria-pressed="false"><span style="background:#d6322a"></span>Atomic</button>
+      <button type="button" data-g="madshus" aria-pressed="false"><span style="background:#2c55b8"></span>Madshus</button>
+      <button type="button" data-g="rossignol" aria-pressed="false"><span style="background:#2f8f50"></span>Rossignol</button>
+    </div>
+  </div>
+  <div class="grid" id="grid"></div>
+</div></section>
+
+<section class="sec" id="timeline"><div class="wrap">
+  <div class="sechead"><span class="n mono">N°2 — Хронология</span><h2>Модели и вехи</h2><span></span></div>
+  <div class="tl" id="tl"></div>
+  <p class="mono" style="color:var(--soft);margin-top:16px">Строки курсивом взяты из воспоминаний пользователей форумов. Их стоит сверить с каталогом того же сезона.</p>
+</div></section>
+
+<section class="sec" id="sources"><div class="wrap">
+  <div class="sechead"><span class="n mono">N°3 — Источники</span><h2>Где искать дальше</h2><span></span></div>
+  <div class="cols">
+    <div><span class="mono" style="color:var(--soft)">Журналы</span><h3>Skiing и SKI на Google Books</h3><p>Полные номера с рекламой. Осенние выпуски — это обзоры снаряжения на сезон, в зимних печатались тесты беговых лыж.</p><a href="https://www.skiinghistory.org/resources/ski-magazine-back-issues-and-index-1941-1993" target="_blank" rel="noopener">Индекс SKI ↗</a></div>
+    <div><span class="mono" style="color:var(--soft)">Журналы</span><h3>Snow Country, 1988–1999</h3><p>Реклама Fischer и других брендов начала 90-х. Это лучший источник по периоду, где в архиве пока пробел.</p><a href="https://books.google.com/books?id=K5HoPmyqlOwC" target="_blank" rel="noopener">Пример номера ↗</a></div>
+    <div><span class="mono" style="color:var(--soft)">Каталоги</span><h3>Utah State University</h3><p>Больше 1300 оцифрованных каталогов outdoor-брендов, в том числе Fischer и Rossignol.</p><a href="https://exhibits.usu.edu/exhibits/show/outdoorcatalogs" target="_blank" rel="noopener">Коллекция ↗</a></div>
+    <div><span class="mono" style="color:var(--soft)">Музеи</span><h3>DigitaltMuseum</h3><p>Датированные экземпляры Madshus и Landsem из норвежских музеев.</p><a href="https://digitaltmuseum.org/011025218157" target="_blank" rel="noopener">Landsem/Madshus ↗</a></div>
+    <div><span class="mono" style="color:var(--soft)">Форумы</span><h3>skisport.ru</h3><p>Маркировки, расцветки по годам, ответы представителей брендов.</p><a href="https://www.skisport.ru/forum/cross-country/92195/" target="_blank" rel="noopener">Fischer 80-х ↗</a></div>
+    <div><span class="mono" style="color:var(--soft)">2000-е</span><h3>Архив FasterSkier</h3><p>Пресс-релизы с фото моделей: RCS Classic Wet, Carbonlite, Atomic на Олимпиаде 2006 года.</p><a href="https://cms.fasterskier.com/?p=6577" target="_blank" rel="noopener">RCS Carbonlite ↗</a></div>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <div class="big">Skate. Classic. Archive.</div>
+  <span class="mono">Сканы принадлежат правообладателям журналов и каталогов. Под каждым сканом ссылка на источник.</span>
+  <span class="mono">© 2026 XC Archive</span>
+</div></footer>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Скан">
+  <div class="bar"><span id="lbcap"></span><button type="button" id="lbp" aria-label="Предыдущий">←</button><button type="button" id="lbn" aria-label="Следующий">→</button><button type="button" id="lbx">Закрыть</button></div>
+  <div class="sc" id="lbsc"><img id="lbimg" alt=""></div>
+</div>
+
+<script>
+const D=[{"f": "1985-catalog_rossignol-cross-country-85-86.jpg", "y": "1985/86", "b": "rossignol", "c": "Rossignol — обложка каталога Cross Country ’85–’86", "s": "Каталог Rossignol, USU Outdoor Recreation Catalogs", "u": "https://exhibits.usu.edu/exhibits/show/outdoorcatalogs_o-z/item/24738", "w": 560, "h": 430}, {"f": "1987-01_skiing_p142_skating-lineup.jpg", "y": "1986/87", "b": "multi", "c": "Первые серийные коньковые: Kästle RX, Peltonen Supra Cosmic, Rossignol RNC, Atomic ARC Wasa Turbo Skate, Kneissl White Star, Blizzard Siitonen Carbon, Järvinen RSS Synchron, Fischer RCS Skating WM, Karhu Matrix", "s": "Skiing, январь 1987, с. 142", "u": "https://books.google.com/books?id=Cx6m-ErLRnkC&pg=PA142", "w": 560, "h": 795}, {"f": "1987-09_skiing_p159_xc-equipment-88.jpg", "y": "1987/88", "b": "multi", "c": "«X-C Equipment ’88. A skater’s market»: Rossignol Carbon Skating Cobra, Blizzard CS Chemical, Karhu Snowfox, Fischer Universal SCS Air Core, Madshus DB 58 Skate, Trak Easyskate", "s": "Skiing, сентябрь 1987, с. 159", "u": "https://books.google.com/books?id=gW5D15nUcP8C&pg=PA159", "w": 560, "h": 808}, {"f": "1988-02_skiing_p106-107_spread.jpg", "y": "1987/88", "b": "multi", "c": "Разворот «Skis for aspiring skaters»: Landsem, Järvinen, Trak, Rossignol Carbon Skating Cobra, Karhu, Madshus DB 58, Peltonen Sigma, Kästle SXC, Fischer Top Skate, Kneissl, Blizzard, Bonna", "s": "Skiing, февраль 1988, с. 106–107", "u": "https://books.google.com/books?id=mtvvm6pQhHMC&pg=PA107", "w": 900, "h": 646}, {"f": "1988-09_skiing_p200_nordic-89.jpg", "y": "1988/89", "b": "multi", "c": "«Nordic ’89»: Karhu Skating Matrix Blue, Morotto Nomex, Merrell, Fischer GTS, Rossignol Carbon 700 SDC, Madshus Skate", "s": "Skiing, сентябрь 1988, с. 200", "u": "https://books.google.com/books?id=jUCH5YFitnEC&pg=PA200", "w": 560, "h": 794}, {"f": "1990-09_skiing_p203_nordic.jpg", "y": "1990/91", "b": "fischer", "c": "Fischer RCS в розово-жёлтой графике начала 90-х, рядом Peltonen 4000G и Rossignol CX Training", "s": "Skiing, сентябрь 1990, с. 203", "u": "https://books.google.com/books?id=dT6NgTsCQoUC&pg=PA203", "w": 560, "h": 780}, {"f": "1991-11_snowcountry_p28_fischer-ad-xc.jpg", "y": "1991/92", "b": "fischer", "c": "Рекламный разворот Fischer после ЧМ-1991 в Валь-ди-Фиемме: Air Core, 9 золотых медалей в беговых", "s": "Snow Country, ноябрь 1991, с. 28 (беговая половина)", "u": "https://books.google.com/books?id=QAfM2KYFFaMC&pg=PA28", "w": 560, "h": 1285}, {"f": "1994-01_snowcountry_p51_fischer-revolution-ad.jpg", "y": "1993/94", "b": "fischer", "c": "Реклама Fischer Revolution 147 см: укороченная лыжа в версиях Skate и Crown", "s": "Snow Country, январь–февраль 1994, с. 51", "u": "https://books.google.com/books?id=K5HoPmyqlOwC&pg=PA51", "w": 560, "h": 776}, {"f": "2001-02_skiing_p101_nordic-skis.jpg", "y": "2000/01", "b": "multi", "c": "Rossignol, Karhu Nova, Atomic Supercap Light DTR", "s": "Skiing, февраль 2001, с. 101", "u": "https://books.google.com/books?id=os-LeJHdKAwC&pg=PA101", "w": 560, "h": 1176}, {"f": "2004-catalog_fischer-cross-country-04-05.jpg", "y": "2004/05", "b": "fischer", "c": "Fischer — обложка каталога Cross Country 2004/05", "s": "Каталог Fischer, USU Outdoor Recreation Catalogs", "u": "https://exhibits.usu.edu/items/show/20527", "w": 560, "h": 917}, {"f": "2004-03_skiing_p88_skate-top-shelf.jpg", "y": "2003/04", "b": "fischer", "c": "Fischer RCS SkateCut, жёлтый, Air Core", "s": "Skiing, март–апрель 2004, с. 88", "u": "https://books.google.com/books?id=T6FkbLkSWUcC&pg=PA88", "w": 560, "h": 776}, {"f": "2004-03_skiing_p89_skate-atomic-rs10.jpg", "y": "2003/04", "b": "atomic", "c": "Atomic RS:10, красно-белый", "s": "Skiing, март–апрель 2004, с. 89", "u": "https://books.google.com/books?id=T6FkbLkSWUcC&pg=PA89", "w": 560, "h": 773}, {"f": "2004-03_skiing_p90_classic-rossignol-delta.jpg", "y": "2003/04", "b": "rossignol", "c": "Rossignol Delta Course Classic", "s": "Skiing, март–апрель 2004, с. 90", "u": "https://books.google.com/books?id=T6FkbLkSWUcC&pg=PA90", "w": 560, "h": 779}, {"f": "2007-01_skiing_p108_skate-setups.jpg", "y": "2006/07", "b": "multi", "c": "Atomic Race Skate, Fischer RCR Skatecut, Rossignol Delta Skate — вид сверху и сбоку", "s": "Skiing, январь 2007, с. 108", "u": "https://books.google.com/books?id=e-KrMwwoZYQC&pg=PA108", "w": 560, "h": 770}, {"f": "2007-01_skiing_p110_classic-setups.jpg", "y": "2006/07", "b": "multi", "c": "Madshus Suprasonic C3 Classic, Fischer SCS Classic, Rossignol Delta Classic", "s": "Skiing, январь 2007, с. 110", "u": "https://books.google.com/books?id=e-KrMwwoZYQC&pg=PA110", "w": 560, "h": 763}, {"f": "2007-09_skiing_p146_skate-skis.jpg", "y": "2007/08", "b": "multi", "c": "Atomic Worldcup Skate, Fischer RCS Carbonlite, Madshus Nanosonic Carbon, Rossignol X-ium Skating", "s": "Skiing, сентябрь 2007, с. 146", "u": "https://books.google.com/books?id=wA4vBNEFpGcC&pg=PA146", "w": 560, "h": 788}, {"f": "2007-09_skiing_p147_classic-skis.jpg", "y": "2007/08", "b": "multi", "c": "Atomic Vasa Race G2, Fischer RCS Crown, Madshus Terrasonic MGV, Rossignol X-ium Classic", "s": "Skiing, сентябрь 2007, с. 147", "u": "https://books.google.com/books?id=wA4vBNEFpGcC&pg=PA147", "w": 560, "h": 755}];
+const BR={fischer:"Fischer",atomic:"Atomic",madshus:"Madshus",rossignol:"Rossignol"};
+const brandsOf=g=>Object.keys(BR).filter(k=>g.b===k||(g.c+" "+g.f).toLowerCase().includes(k));
+const grid=document.getElementById('grid');
+D.forEach((g,i)=>{
+  const el=document.createElement('article');el.className='item'+(g.w/g.h>1.15?' wide':'');el.dataset.br=brandsOf(g).join(' ');
+  const title=g.c.split(/[:—]/)[0].trim();const rest=g.c.slice(title.length).replace(/^[\s:—]+/,'');
+  el.innerHTML=`<button type="button" aria-label="Открыть скан: ${g.s}"><img src="thumb/${g.f}" width="${g.w}" height="${g.h}" alt="${g.c.replace(/"/g,'&quot;')}" loading="${i<3?'eager':'lazy'}"></button>
+  <div class="meta"><span class="code">N°${String(i+1).padStart(2,'0')}</span><h3>${title}</h3><span class="season">${g.y}</span></div>
+  ${rest?`<p>${rest[0].toUpperCase()+rest.slice(1)}</p>`:''}
+  <div>${brandsOf(g).map(b=>`<span class="tag ${b}">${BR[b]}</span>`).join('')}</div>
+  <span class="src">Источник: <a href="${g.u}" target="_blank" rel="noopener">${g.s}</a></span>`;
+  el.querySelector('button').addEventListener('click',()=>openLb(i));
+  grid.appendChild(el);
+});
+document.querySelectorAll('.filters button').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('.filters button').forEach(x=>x.setAttribute('aria-pressed',x===b));
+  const k=b.dataset.g;grid.querySelectorAll('.item').forEach(it=>it.hidden=!(k==='all'||it.dataset.br.split(' ').includes(k)));
+}));
+const lb=document.getElementById('lb'),li=document.getElementById('lbimg'),lc=document.getElementById('lbcap');let cur=0,last=null;
+function vis(){return [...grid.querySelectorAll('.item')].map((e,i)=>e.hidden?-1:i).filter(i=>i>=0)}
+function openLb(i){cur=i;last=document.activeElement;const g=D[i];li.src='img/'+g.f;li.alt=g.c;lc.textContent=`N°${String(i+1).padStart(2,'0')} · ${g.y} · ${g.s}`;lb.hidden=false;document.body.style.overflow='hidden';document.getElementById('lbsc').scrollTop=0;document.getElementById('lbx').focus()}
+function closeLb(){lb.hidden=true;document.body.style.overflow='';li.removeAttribute('src');last&&last.focus()}
+function step(d){const v=vis();const p=v.indexOf(cur);openLb(v[(p+d+v.length)%v.length])}
+document.getElementById('lbx').onclick=closeLb;document.getElementById('lbn').onclick=()=>step(1);document.getElementById('lbp').onclick=()=>step(-1);
+document.addEventListener('keydown',e=>{if(lb.hidden)return;if(e.key==='Escape')closeLb();if(e.key==='ArrowRight')step(1);if(e.key==='ArrowLeft')step(-1)});
+
+const S={ad1:"https://crosscountryskihistory.us/?p=537",ad2:"https://patents.google.com/patent/DE3530095A1",tt:"https://telemarktalk.com/viewtopic.php?p=65606",bp:"https://www.brandpedia.ru/brand-604.html",fa:"https://fischerathletes.ru/blog/istoriya-kompanii-fischer-chast-3-1979-2020-gg",hub:"https://skisport.ru/articles/read/73164/",sm:"https://sport-marafon.ru/article/istoriya-brenda-fischer/",f80:"https://www.skisport.ru/forum/cross-country/92195/",fall:"https://skisport.ru/forum/cross-country/84237/",fwet:"https://fasterskier.com/2005/02/new-classic-ski-from-fischer/",fhole:"https://fasterskier.com/?p=34795",fsm:"https://veloplus.ee/en/uisusuusad-fischer-speedmax-90-skate-plus-610-68096",fsk:"https://skinnyski.com/gear/manufacturers/member.asp?Id=36",asc:"http://www.sportserviscenter.ru/index.php?option=com_content&task=view&id=15&Itemid=16",amark:"https://www.skisport.ru/forum/faq-cross-country/87395/",aq:"https://www.skisport.ru/news/cross-country/98804/",awiki:"https://en.wikipedia.org/wiki/Atomic_Skis",a06:"https://fasterskier.com/2006/03/atomic-sets-olympic-precedent/",a09:"https://forum.academ.club/lofiversion/index.php/t622974.html",asm:"https://www.sportmaster.ru/media/articles/begovye-lyzhi-atomic-modeli-tekhnologii-podbor/",mdm:"https://digitaltmuseum.org/011025218157",mpx:"https://www.proxcskiing.com/equipment/from-crisis-to-comeback-at-madshus/",mds:"https://dailyskier.com/?p=7887",rw:"https://en.wikipedia.org/wiki/Skis_Rossignol",rusu:"https://exhibits.usu.edu/exhibits/show/outdoorcatalogs_o-z/company_gallery/rossignol",rx:"https://www.mec.ca/en/products/brands/rossignol"};
+const R=[
+["adidas","1976","Adidas Norm 38 мм дебютирует на Олимпиаде в Инсбруке. С ним выходят ботинки Suomi и Lahti, на этой системе сборная США выступала в Лейк-Плэсиде в 1980-м.","ad1"],
+["fischer","1971/72","Первая коллекция беговых лыж Fischer, её показали на ISPO в 1971 году.","tt"],
+["madshus","1974","Первые стеклопластиковые лыжи Madshus.","mdm"],
+["rossignol","1970-е","Rossignol выходит на рынок США и выпускает первые беговые лыжи.","rw"],
+["fischer","1979","Структура скользящей поверхности Crown Finish.","bp"],
+["madshus","1980-е","Конструкция Double Box и первые чёрные скользящие поверхности.","mpx"],
+["fischer","1980-е","Сердечник Air Core в гоночных моделях.","fa"],
+["adidas","1985","Adidas патентует новое крепление для беговых лыж.","ad2"],
+["rossignol","1985/86","Каталог Rossignol Cross Country 85/86 выходит в первый сезон массового конька.","rusu"],
+["fischer","1986–88","Fischer выпускает лыжи по лицензии в СССР, потом открывает фабрику в Мукачево.","fa"],
+["atomic","1987","Atomic начинает выпускать беговые лыжи. Гоночная линейка называется ARC.","asc"],
+["madshus","1987–88","Madshus покупает фабрику Landsem, сама компания переходит к K2.","mdm"],
+["fischer","конец 80-х","Модель RCS в «полосатом» дизайне с тонким металлическим кантом.","f80",1],
+["fischer","конец 80-х","Начинается работа над классическими лыжами Zero.","hub"],
+["atomic","90-е","У гоночных лыж маркировка ARC, у среднего уровня ATC, у начального ACC.","amark",1],
+["atomic","начало 90-х","Носки асимметричной формы, розовый цвет в графике.","f80",1],
+["atomic","1991–92","Пик производства: 831 тысяча пар в год.","awiki"],
+["fischer","1992","На ISPO показывают укороченную лыжу Revolution.","bp"],
+["fischer","1994","На Олимпиаде в Лиллехаммере Fischer становится самым успешным брендом.","sm"],
+["madshus","90-е","Madshus первым переводит беговые лыжи на CAP-конструкцию.","mpx"],
+["fischer","рубеж веков","Вырез SkateCut в носке коньковых лыж.","fall",1],
+["atomic","~2005","Ярко-зелёно-оранжевые лыжи для спринта.","aq",1],
+["fischer","2005/06","Выходит RCS Classic Wet.","fwet"],
+["atomic","2006","На Олимпиаде в Турине Worldcup Skate сменяет RS:11.","a06"],
+["fischer","2009","Выходит RCS Carbonlite с отверстием в носке.","fhole"],
+["atomic","2009/10","Топовые модели World Cup и World Cup FL.","a09"],
+["madshus","2000–10-е","Гоночные модели Hypersonic, Nanosonic и Redline с сердечником из Rohacell.","mds"],
+["fischer","2013/14","Speedmax выходит к Олимпиаде в Сочи.","fsm"],
+["fischer","10-е → 20-е","В 2010-х расцветки чёрные, потом возвращается жёлтый.","fall",1],
+["atomic","2020-е","Redster с V-образным профилем.","asm"],
+["rossignol","2020-е","Гоночная линейка X-ium, любительская Delta.","rx"],
+["fischer","2025","Новое поколение Speedmax: лыжа весит 950 г.","fsk"]];
+const yk=y=>{const m=y.match(/\d{4}/);if(m)return +m[0];const d=y.match(/(\d0)-е/);return d?1900+(+d[1])+(y.includes('конец')?8:y.includes('начало')?1:5):y.includes('рубеж')?1999:y.includes('10-е')?2015:y.includes('20-е')?2022:2005};
+const tl=document.getElementById('tl');
+R.slice().sort((a,b)=>yk(a[1])-yk(b[1])).forEach(([b,y,t,s,m])=>{const r=document.createElement('div');r.className='r '+b+(m?' memo':'');r.innerHTML=`<span class="y">${y}</span><span class="b">${b==='adidas'?'Крепления':BR[b]}</span><span class="t">${t}<a href="${S[s]}" target="_blank" rel="noopener">источник ↗</a></span>`;tl.appendChild(r)});
+</script>
+</body>
+</html>
