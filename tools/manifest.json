@@ -1112,10 +1112,6 @@
 "url": "https://web.archive.org/web/20231105154141im_/https://www.fischersports.com/media/image/e8/08/40/n55523_transnordic_66_crown_xtralite_01_915x915@2x.jpg"
 },
 {
-"id": "madshus/2020-madshus-active-c",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_1920_active-c?w=2400&bg=white"
-},
-{
 "id": "madshus/2023-madshus-active-mgv",
 "url": "https://cdn.media.amplience.net/s/madshus/madshus_2223_active-mgv?w=2400&bg=white"
 },
@@ -1164,10 +1160,6 @@
 "url": "https://cdn.media.amplience.net/s/madshus/madshus_2425_redline-classic-ltd_MD240667?w=2400&bg=white"
 },
 {
-"id": "madshus/2025-madshus-redline-classic",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2425_redline-classic_MD240496?w=2400&bg=white"
-},
-{
 "id": "madshus/2025-madshus-redline-dp1",
 "url": "https://cdn.media.amplience.net/s/madshus/madshus_2425_redline-dp1_MD240669?w=2400&bg=white"
 },
@@ -1186,14 +1178,6 @@
 {
 "id": "madshus/2025-madshus-redline-skate-ltd",
 "url": "https://cdn.media.amplience.net/s/madshus/madshus_2425_redline-skate-ltd_MD240668?w=2400&bg=white"
-},
-{
-"id": "madshus/2025-madshus-redline-skate-x",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2425_redline-skate-x_MD240494?w=2400&bg=white"
-},
-{
-"id": "madshus/2025-madshus-redline-skate",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2425_redline-skate_MD240495?w=2400&bg=white"
 },
 {
 "id": "madshus/2025-madshus-redline-skin",
@@ -1216,24 +1200,8 @@
 "url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_active-skin-touring-automatic_N2103036?w=2400&bg=white"
 },
 {
-"id": "madshus/2026-madshus-active-u",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_active-u_N2204010?w=2400&bg=white"
-},
-{
 "id": "madshus/2026-madshus-active-universal-jr",
 "url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_active-universal-jr_MD241205?w=2400&bg=white"
-},
-{
-"id": "madshus/2026-madshus-endurace-classic",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_endurace-classic_N2204003?w=2400&bg=white"
-},
-{
-"id": "madshus/2026-madshus-endurace-skate",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_endurace-skate_N2204004?w=2400&bg=white"
-},
-{
-"id": "madshus/2026-madshus-endurace-universal",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_endurace-universal_N2204005?w=2400&bg=white"
 },
 {
 "id": "madshus/2026-madshus-endurance-classic",
@@ -1244,48 +1212,12 @@
 "url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_endurance-skate_MD251330?w=2400&bg=white"
 },
 {
-"id": "madshus/2026-madshus-fjelltech",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_fjelltech_N2204008?w=2400&bg=white"
-},
-{
-"id": "madshus/2026-madshus-nordic",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_nordic_N2204011?w=2400&bg=white"
-},
-{
-"id": "madshus/2026-madshus-panorama-explorer",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_panorama-explorer_N2204007?w=2400&bg=white"
-},
-{
-"id": "madshus/2026-madshus-panorama-mnt",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_panorama-mnt_N2204006?w=2400&bg=white"
-},
-{
-"id": "madshus/2026-madshus-race-speed-classic",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_race-speed-classic_N2104007?w=2400&bg=white"
-},
-{
-"id": "madshus/2026-madshus-race-speed-jr",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_race-speed-jr_N2104011?w=2400&bg=white"
-},
-{
-"id": "madshus/2026-madshus-race-speed-skate",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_race-speed-skate_N2104005?w=2400&bg=white"
-},
-{
 "id": "madshus/2026-madshus-race-speed-skin",
 "url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_race-speed-skin_MD240678?w=2400&bg=white"
 },
 {
-"id": "madshus/2026-madshus-raceline-jr",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_raceline-jr_N2204012?w=2400&bg=white"
-},
-{
 "id": "madshus/2026-madshus-redline-classic-jr",
 "url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_redline-classic-jr_MD240658?w=2400&bg=white"
-},
-{
-"id": "madshus/2026-madshus-redline-jr",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_redline-jr_MD240820?w=2400&bg=white"
 },
 {
 "id": "rossignol/2022-rossignol-x-ium-skating",
