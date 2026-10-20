@@ -460,10 +460,6 @@
 "url": "https://cdn.media.amplience.net/s/madshus/madshus_2627_redline-zero_MD261965?w=2400&bg=white"
 },
 {
-"id": "madshus/2026-madshus-snowpup-85",
-"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_snowpup_MD240500?w=2400&bg=white"
-},
-{
 "id": "atomic/2010-atomic-pro-skintec",
 "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Atomic_%27Pro_Skintec%27_001.jpg"
 },
@@ -484,27 +480,27 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Rossignol_Zymax_Skating.png"
 },
 {
-"id": "bind/1985-adidas-sds",
+"id": "adidas/1985-adidas-sds",
 "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Adidas-SDS-Bindung-Ski.jpg/1920px-Adidas-SDS-Bindung-Ski.jpg"
 },
 {
-"id": "bind/1985-adidas-sds-2",
+"id": "adidas/1985-adidas-sds-2",
 "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Adidas-SDS-Bindung-Schuh.jpg/1920px-Adidas-SDS-Bindung-Schuh.jpg"
 },
 {
-"id": "bind/1988-sns",
+"id": "salomon/1988-sns",
 "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/SNS-Bindung_altes_System.jpg/1920px-SNS-Bindung_altes_System.jpg"
 },
 {
-"id": "bind/1990-tyrolia-txc",
+"id": "other/1990-tyrolia-txc",
 "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Tyrolia-TXC-Bindung.jpg/1920px-Tyrolia-TXC-Bindung.jpg"
 },
 {
-"id": "bind/2005-nnn-fischer",
+"id": "rottefella/2005-nnn-fischer",
 "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/NNN-Binding.JPG/1920px-NNN-Binding.JPG"
 },
 {
-"id": "bind/2018-turnamic",
+"id": "fischer/2018-turnamic",
 "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Turnamic_XC_ski_binding.jpg/1920px-Turnamic_XC_ski_binding.jpg"
 },
 {
@@ -1454,5 +1450,669 @@
 {
 "id": "atomic/2017-atomic-redster-wc-classic-a2-plus",
 "url": "https://web.archive.org/web/20181101163339im_/https://www.atomic.com/en/files/products/list/left-front/AB0020650.png"
+},
+{
+"id": "fischer/g-2025-fischer-speedmax-9-skate-rl-boa",
+"url": "https://www.fischersports.com/media/3072x4096/62/27/4b/1789999311/s04325_speedmax_9_skate_rl_boa_01.jpg"
+},
+{
+"id": "fischer/g-2026-fischer-speedmax-7-skate-boa",
+"url": "https://www.fischersports.com/media/3072x4096/cf/81/8d/1789999655/s10026_speedmax_7_skate_boa_01.jpg"
+},
+{
+"id": "fischer/g-2025-fischer-speedmax-7-skate",
+"url": "https://www.fischersports.com/media/3072x4096/90/e7/7f/1789999318/s10025_speedmax_7_skate_01.jpg"
+},
+{
+"id": "fischer/g-2026-fischer-speedmax-6-skate-boa",
+"url": "https://www.fischersports.com/media/3072x4096/c2/d7/77/1789998523/s15026_speedmax_6_skate_boa_01.jpg"
+},
+{
+"id": "fischer/g-2025-fischer-speedmax-9-classic-rl-boa",
+"url": "https://www.fischersports.com/media/3072x4096/5c/ae/4f/1789999331/s06325_speedmax_9_classic_rl_boa_01.jpg"
+},
+{
+"id": "fischer/g-2026-fischer-speedmax-7-classic-boa",
+"url": "https://www.fischersports.com/media/3072x4096/75/3a/c6/1789999669/s10526_speedmax_7_classic_boa_01.jpg"
+},
+{
+"id": "fischer/g-2025-fischer-speedmax-7-classic",
+"url": "https://www.fischersports.com/media/3072x4096/45/42/63/1789999338/s10525_speedmax_7_classic_01.jpg"
+},
+{
+"id": "fischer/g-2026-fischer-speedmax-6-classic-boa",
+"url": "https://www.fischersports.com/media/3072x4096/8b/5b/d4/1789999677/s12526_speedmax_6_classic_boa_01.jpg"
+},
+{
+"id": "fischer/g-2025-fischer-speedmax-9-skiathlon-rl-boa",
+"url": "https://www.fischersports.com/media/3072x4096/17/f2/e9/1789999345/s05525_speedmax_9_skiathlon_rl_boa_01.jpg"
+},
+{
+"id": "fischer/g-2026-fischer-speedmax-6-skiathlon-db-boa",
+"url": "https://www.fischersports.com/media/3072x4096/ee/f9/4b/1789999352/s18426_speedmax_6_skiathlon_db_boa_01.jpg"
+},
+{
+"id": "fischer/g-2026-fischer-rc5-skate-boa",
+"url": "https://www.fischersports.com/media/3072x4096/7b/c9/3f/1789998516/s15226_rc5_skate_boa_01.jpg"
+},
+{
+"id": "fischer/g-2023-fischer-rc5-combi",
+"url": "https://www.fischersports.com/media/3072x4096/b9/52/bf/1789999570/s18523_rc5_combi_01.jpg"
+},
+{
+"id": "fischer/g-2025-fischer-rcs-classic",
+"url": "https://www.fischersports.com/media/3072x4096/37/2b/7b/1789999370/s16825_rcs_classic_01.jpg"
+},
+{
+"id": "fischer/g-2024-fischer-xc-control",
+"url": "https://www.fischersports.com/media/3072x4096/6a/92/df/1789999389/s20524_xc_control_01.jpg"
+},
+{
+"id": "fischer/g-2022-fischer-xc-power",
+"url": "https://www.fischersports.com/media/3072x4096/6a/dd/6b/1789999411/s21122_xc_power_01.jpg"
+},
+{
+"id": "fischer/g-2025-fischer-xc-touring",
+"url": "https://www.fischersports.com/media/3072x4096/de/5a/b0/1789999423/s21625_xc_touring_01.jpg"
+},
+{
+"id": "fischer/g-2025-fischer-speedmax-jr-skate",
+"url": "https://www.fischersports.com/media/3072x4096/a8/df/83/1789999612/s40025_speedmax_jr_skate_01.jpg"
+},
+{
+"id": "fischer/g-2025-fischer-speedmax-jr-classic",
+"url": "https://www.fischersports.com/media/3072x4096/e4/75/4d/1789999618/s40225_speedmax_jr_classic_01.jpg"
+},
+{
+"id": "fischer/g-2021-fischer-xj-sprint",
+"url": "https://www.fischersports.com/media/3072x4096/4f/11/c6/1789999629/s40821_xj_sprint_01.jpg"
+},
+{
+"id": "fischer/g-2025-fischer-worldcup-skate",
+"url": "https://www.fischersports.com/media/3072x4096/f9/e1/d4/1789999688/s49025_worldcup_skate_01.png"
+},
+{
+"id": "fischer/g-2019-fischer-race-pro-skate",
+"url": "https://www.fischersports.com/media/3072x4096/6d/e7/a1/1789999690/s50019_race_pro_skate_01.png"
+},
+{
+"id": "fischer/g-2025-fischer-race-skate",
+"url": "https://www.fischersports.com/media/3072x4096/42/af/9c/1789999691/s55025_race_skate_01.png"
+},
+{
+"id": "fischer/g-2025-fischer-worldcup-classic",
+"url": "https://www.fischersports.com/media/3072x4096/11/d0/eb/1789999692/s49125_worldcup_classic_01.png"
+},
+{
+"id": "fischer/g-2019-fischer-race-pro-classic",
+"url": "https://www.fischersports.com/media/3072x4096/e6/8c/f1/1789999694/s50119_race_pro_classic_01.png"
+},
+{
+"id": "fischer/g-2025-fischer-race-classic",
+"url": "https://www.fischersports.com/media/3072x4096/db/58/4e/1789999695/s55225_race_classic_01.png"
+},
+{
+"id": "fischer/g-2022-fischer-rottefella-move-switch",
+"url": "https://www.fischersports.com/media/3072x4096/33/ae/bf/1789999704/s58122_rottefella_move_switch_01.png"
+},
+{
+"id": "fischer/g-2023-fischer-rottefella-move-tune-classic",
+"url": "https://www.fischersports.com/media/3072x4096/42/51/ee/1789999705/s58423_rottefella_move_tune_classic_01.png"
+},
+{
+"id": "fischer/g-2022-fischer-speedmax-classic",
+"url": "https://web.archive.org/web/20240119134649im_/https://www.fischersports.com/media/image/2f/c8/5d/s01422_speedmax_classic_01_915x915@2x.jpg"
+},
+{
+"id": "fischer/g-2023-fischer-xc-comfort-pro",
+"url": "https://web.archive.org/web/20231105025106im_/https://www.fischersports.com/media/image/1d/50/ca/s20723_xc_comfort_pro_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2019-fischer-xc-touring",
+"url": "https://web.archive.org/web/20220312023820im_/https://www.fischersports.com/media/image/03/93/ee/s21619_xc_touring_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2019-fischer-speedmax-classic",
+"url": "https://web.archive.org/web/20240119134017im_/https://www.fischersports.com/media/image/04/f5/cd/s01419_speedmax_classic_01_1280x1280@2x.jpg"
+},
+{
+"id": "fischer/g-2017-fischer-carbonlite-skate",
+"url": "https://web.archive.org/web/20200223191240im_/https://www.fischersports.com/media/image/15/67/60/s10017_carbonlite_skate_productdetail_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2019-fischer-race-pro-skate-2",
+"url": "https://web.archive.org/web/20221028180712im_/https://www.fischersports.com/media/image/26/49/ed/s50019_race_pro_skate_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2022-fischer-carbon-skiathlon-dp",
+"url": "https://web.archive.org/web/20220803191737im_/https://www.fischersports.com/media/image/a8/58/44/s18422_carbon_skiathlon_dp_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2019-fischer-race-classic",
+"url": "https://web.archive.org/web/20191211062257im_/https://www.fischersports.com/media/image/07/a6/b2/s55219_race_classic_01_915x915.jpg"
+},
+{
+"id": "fischer/g-2021-fischer-rc3-skate",
+"url": "https://web.archive.org/web/20230423031101im_/https://www.fischersports.com/media/image/51/f0/3c/s15621_rc3_skate_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2022-fischer-rottefella-move-switch-2",
+"url": "https://web.archive.org/web/20230422234044im_/https://www.fischersports.com/media/image/76/4f/1d/s58122_rottefella_move_switch_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2022-fischer-speedmax-skiathlon",
+"url": "https://web.archive.org/web/20231106185439im_/https://www.fischersports.com/media/image/0d/f9/43/s05522_speedmax_skiathlon_01_915x915@2x.jpg"
+},
+{
+"id": "fischer/g-2019-fischer-race-pro-classic-2",
+"url": "https://web.archive.org/web/20220617044007im_/https://www.fischersports.com/media/image/b9/7a/5c/s50119_race_pro_classic_01IAyIv3kUZJ2jw_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2022-fischer-carbon-skate",
+"url": "https://web.archive.org/web/20230306230223im_/https://www.fischersports.com/media/image/16/95/b3/s15022_carbon_skate_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2022-fischer-worldcup-classic",
+"url": "https://web.archive.org/web/20230422062547im_/https://www.fischersports.com/media/image/17/86/42/s49122_worldcup_classic_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2020-fischer-race-skate",
+"url": "https://web.archive.org/web/20220123140849im_/https://www.fischersports.com/media/image/6b/63/0f/s55020_race_skate_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2021-fischer-rc5-skate",
+"url": "https://web.archive.org/web/20220629163524im_/https://www.fischersports.com/media/image/29/43/d3/s15421_rc5_skate_015hHrTejE5s0an_915x915@2x.jpg"
+},
+{
+"id": "fischer/g-2017-fischer-carbonlite-classic",
+"url": "https://web.archive.org/web/20191211052917im_/https://www.fischersports.com/media/image/18/b5/78/s10517_6webansichten_09_carbonlite_classic_productdetail_01_915x915.jpg"
+},
+{
+"id": "fischer/g-2018-fischer-xc-touring",
+"url": "https://web.archive.org/web/20191231221539im_/https://www.fischersports.com/media/image/1c/1c/g0/s21618_xc_touring_productdetail_01_670x670.jpg"
+},
+{
+"id": "fischer/g-2019-fischer-speedmax-skate",
+"url": "https://web.archive.org/web/20220212142649im_/https://www.fischersports.com/media/image/c9/37/1f/s01019_speedmax_skate_01_1280x1280@2x.jpg"
+},
+{
+"id": "fischer/g-2017-fischer-rc3-skate",
+"url": "https://web.archive.org/web/20200223191240im_/https://www.fischersports.com/media/image/32/56/85/s15617_6webansichten_09_rc3_skate_productdetail_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2022-fischer-rottefella-move-race",
+"url": "https://web.archive.org/web/20230422234043im_/https://www.fischersports.com/media/image/21/36/a6/s58022_rottefella_move_race_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2020-fischer-xc-comfort-pro",
+"url": "https://web.archive.org/web/20211120053735im_/https://www.fischersports.com/media/image/43/92/e4/s20720_xc_comfort_pro_01_915x915@2x.jpg"
+},
+{
+"id": "fischer/g-2022-fischer-xc-pro",
+"url": "https://web.archive.org/web/20220803191741im_/https://www.fischersports.com/media/image/5c/7e/f8/s21722_xc_pro_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2019-fischer-rcs-skate",
+"url": "https://web.archive.org/web/20230214124709im_/https://www.fischersports.com/media/image/ed/bd/36/s15219_rcs_skate_01_915x915@2x.jpg"
+},
+{
+"id": "fischer/g-2022-fischer-xc-power-2",
+"url": "https://web.archive.org/web/20220803191737im_/https://www.fischersports.com/media/image/28/47/9d/s21122_xc_power_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2023-fischer-carbonlite-skate",
+"url": "https://web.archive.org/web/20231105015412im_/https://www.fischersports.com/media/image/28/b1/ec/s10023_carbonlite_skate_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2021-fischer-rc3-classic",
+"url": "https://web.archive.org/web/20220312023828im_/https://www.fischersports.com/media/image/2d/5d/0f/s17221_rc3_classic_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2017-fischer-race-skate",
+"url": "https://web.archive.org/web/20200103180843im_/https://www.fischersports.com/media/image/f7/eb/78/s55017_race_skate_productdetail_01_915x915@2x.jpg"
+},
+{
+"id": "fischer/g-2020-fischer-race-classic",
+"url": "https://web.archive.org/web/20220617044007im_/https://www.fischersports.com/media/image/2b/52/1a/s55220_race_classic_01h11bvc9n6tDbe_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2017-fischer-rcs-skate",
+"url": "https://web.archive.org/web/20200223191241im_/https://www.fischersports.com/media/image/2c/00/cb/s15217_6webansichten_09_rcs_skate_productdetail_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2017-fischer-race-pro-skate",
+"url": "https://web.archive.org/web/20190205114624im_/https://www.fischersports.com/media/image/2e/9d/a1/s50017_race_pro_skate_productdetail_01_915x915.jpg"
+},
+{
+"id": "fischer/g-2022-fischer-rcs-skate",
+"url": "https://web.archive.org/web/20230423020616im_/https://www.fischersports.com/media/image/69/8d/98/s15222_rcs_skate_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2022-fischer-xc-touring",
+"url": "https://web.archive.org/web/20231105055446im_/https://www.fischersports.com/media/image/3d/47/ed/s21622_xc_touring_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2017-fischer-xc-comfort-pro",
+"url": "https://web.archive.org/web/20191231221535im_/https://www.fischersports.com/media/image/58/33/3e/s20717_6webansichten_09_xc_comfort_pro_black_silver_productdetail_01_915x915.jpg"
+},
+{
+"id": "fischer/g-2020-fischer-carbonlite-classic",
+"url": "https://web.archive.org/web/20231230065144im_/https://www.fischersports.com/media/image/cc/45/44/s10520_carbonlite_classic_01_915x915@2x.jpg"
+},
+{
+"id": "fischer/g-2020-fischer-carbonlite-skate",
+"url": "https://web.archive.org/web/20220212142730im_/https://www.fischersports.com/media/image/e6/8c/49/s10020_carbonlite_skate_01_915x915@2x.jpg"
+},
+{
+"id": "fischer/g-2020-fischer-xc-sport",
+"url": "https://web.archive.org/web/20220312015222im_/https://www.fischersports.com/media/image/48/0b/0d/s23520_xc_sport_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2019-fischer-rcs-classic",
+"url": "https://web.archive.org/web/20220310044123im_/https://www.fischersports.com/media/image/5f/f4/5a/s16819_rcs_classic_01_915x915@2x.jpg"
+},
+{
+"id": "fischer/g-2021-fischer-rc5-classic",
+"url": "https://web.archive.org/web/20220312023825im_/https://www.fischersports.com/media/image/dc/e6/c6/s17021_rc5_classic_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2015-fischer-speedmax-skate",
+"url": "https://web.archive.org/web/20181218163431im_/https://www.fischersports.com/media/image/55/75/16/s01015_speedmax_skate_productdetail_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2022-fischer-speedmax-skate",
+"url": "https://web.archive.org/web/20230422194148im_/https://www.fischersports.com/media/image/6b/a3/a2/s01022_speedmax_skate_01_915x915@2x.jpg"
+},
+{
+"id": "fischer/g-2018-fischer-xc-comfort",
+"url": "https://web.archive.org/web/20211120053725im_/https://www.fischersports.com/media/image/a7/4e/a9/s21018_xc_comfort_01_915x915@2x.jpg"
+},
+{
+"id": "fischer/g-2019-fischer-race-skate",
+"url": "https://web.archive.org/web/20191211043440im_/https://www.fischersports.com/media/image/5d/bf/30/s55019_race_skate_01_915x915.jpg"
+},
+{
+"id": "fischer/g-2019-fischer-rcs-carbon-skate",
+"url": "https://web.archive.org/web/20230214124709im_/https://www.fischersports.com/media/image/60/8e/c5/s15019_rcs_carbon_skate_01_915x915@2x.jpg"
+},
+{
+"id": "fischer/g-2022-fischer-rottefella-move-tune",
+"url": "https://web.archive.org/web/20231105040958im_/https://www.fischersports.com/media/image/93/57/84/s58222_rottefella_move_tune_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2022-fischer-rcs-classic-waterproof",
+"url": "https://web.archive.org/web/20220803191737im_/https://www.fischersports.com/media/image/72/c2/d5/s16822_rcs_classic_waterproof_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2019-fischer-xc-control",
+"url": "https://web.archive.org/web/20220312015211im_/https://www.fischersports.com/media/image/66/a4/1b/s20519_xc_control_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2019-fischer-worldcup-classic",
+"url": "https://web.archive.org/web/20220123142348im_/https://www.fischersports.com/media/image/6c/28/77/s49119_worldcup_classic_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2017-fischer-xc-pro",
+"url": "https://web.archive.org/web/20191231221540im_/https://www.fischersports.com/media/image/72/8a/53/s21817_6webansichten_09_xc_pro_black_yellow_productdetail_01_670x670.jpg"
+},
+{
+"id": "fischer/g-2018-fischer-xc-control",
+"url": "https://web.archive.org/web/20191231221536im_/https://www.fischersports.com/media/image/86/ee/9b/s20518_xc_control_productdetail_01_915x915.jpg"
+},
+{
+"id": "fischer/g-2019-fischer-worldcup-skate",
+"url": "https://web.archive.org/web/20221028180833im_/https://www.fischersports.com/media/image/eb/40/96/s49019_worldcup_skate_01_915x915@2x.jpg"
+},
+{
+"id": "fischer/g-2017-fischer-rc5-classic",
+"url": "https://web.archive.org/web/20190605211843im_/https://www.fischersports.com/media/image/97/2f/23/s17017_6webansichten_09_rc5_classic_productdetail_01_670x670.jpg"
+},
+{
+"id": "fischer/g-2023-fischer-carbonlite-classic",
+"url": "https://web.archive.org/web/20231105071713im_/https://www.fischersports.com/media/image/98/86/9b/s10523_carbonlite_classic_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2017-fischer-rc5-skate",
+"url": "https://web.archive.org/web/20200223191240im_/https://www.fischersports.com/media/image/99/9a/c8/s15417_6webansichten_09_rc5_skate_productdetail_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2017-fischer-xc-sport",
+"url": "https://web.archive.org/web/20191231221540im_/https://www.fischersports.com/media/image/9a/9c/8e/s23517_6webansichten_09_xc_sport_black_productdetail_01_670x670.jpg"
+},
+{
+"id": "fischer/g-2022-fischer-worldcup-skate",
+"url": "https://web.archive.org/web/20230422023430im_/https://www.fischersports.com/media/image/a1/1f/7d/s49022_worldcup_skate_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2017-fischer-race-classic",
+"url": "https://web.archive.org/web/20190423050134im_/https://www.fischersports.com/media/image/b0/69/99/s55217_race_classic_productdetail_01_670x670.jpg"
+},
+{
+"id": "fischer/g-2023-fischer-rc5-skate",
+"url": "https://web.archive.org/web/20240415124124im_/https://www.fischersports.com/media/image/e6/ba/f0/s15423_rc5_skate_01_915x915@2x.jpg"
+},
+{
+"id": "fischer/g-2023-fischer-rc5-classic",
+"url": "https://web.archive.org/web/20240416063150im_/https://www.fischersports.com/media/image/bf/4f/b0/s17023_rc5_classic_01_915x915@2x.jpg"
+},
+{
+"id": "fischer/g-2017-fischer-rcs-classic",
+"url": "https://web.archive.org/web/20190605211845im_/https://www.fischersports.com/media/image/c4/de/ba/s16817_6webansichten_09_rcs_classic_productdetail_01_670x670.jpg"
+},
+{
+"id": "fischer/g-2020-fischer-xc-pro",
+"url": "https://web.archive.org/web/20220312015219im_/https://www.fischersports.com/media/image/d7/54/a3/s21720_xc_pro_01_670x670@2x.jpg"
+},
+{
+"id": "fischer/g-2017-fischer-race-pro-classic",
+"url": "https://web.archive.org/web/20190423022621im_/https://www.fischersports.com/media/image/e3/f3/7f/s50117_race_pro_classic_productdetail_01_670x670.jpg"
+},
+{
+"id": "fischer/g-2019-fischer-rc5-classic",
+"url": "https://web.archive.org/web/20191211052946im_/https://www.fischersports.com/media/image/f4/71/16/s17019_rc5_classic_01_915x915.jpg"
+},
+{
+"id": "fischer/g-2016-fischer-speedmax-classic",
+"url": "https://web.archive.org/web/20190605211845im_/https://www.fischersports.com/media/image/f8/88/b0/s01416_speedmax_classic_productdetail_01_670x670.jpg"
+},
+{
+"id": "atomic/g-2026-atomic-redster-s9-carbon-boa",
+"url": "https://cdn.shopify.com/s/files/1/0938/8546/4904/files/ato-pim-94d8f161eeb08bf5-0fcd407bb6cf3d39.webp"
+},
+{
+"id": "atomic/g-2026-atomic-redster-s9",
+"url": "https://cdn.shopify.com/s/files/1/0938/8546/4904/files/ato-pim-0be53629ebb044da-b5e9f861ec815df7_ebe84622-3fb2-4106-b066-435dcff4a9c0.webp"
+},
+{
+"id": "atomic/g-2026-atomic-redster-sc9-carbon",
+"url": "https://cdn.shopify.com/s/files/1/0938/8546/4904/files/ato-pim-6d1183c8e01c2015-4c4034bd3e912f3e.webp"
+},
+{
+"id": "atomic/g-2026-atomic-redster-c9-carbon",
+"url": "https://cdn.shopify.com/s/files/1/0938/8546/4904/files/ato-pim-d4c7ea10c6cbb164-2b0ecbcab3f45795.webp"
+},
+{
+"id": "atomic/g-2026-atomic-redster-c9",
+"url": "https://cdn.shopify.com/s/files/1/0938/8546/4904/files/ato-pim-ac87a54c10b06126-66b6652decf3f455.webp"
+},
+{
+"id": "atomic/g-2026-atomic-redster-c7",
+"url": "https://cdn.shopify.com/s/files/1/0938/8546/4904/files/ato-pim-0ff759c052020b59-0ad38c00b73a16af.webp"
+},
+{
+"id": "atomic/g-2026-atomic-pro-s2",
+"url": "https://cdn.shopify.com/s/files/1/0938/8546/4904/files/ato-pim-b042700125078ec0-8b5d09ecf02d77ee_0a20c0a7-60a7-4993-9546-df5498132a84.webp"
+},
+{
+"id": "atomic/g-2026-atomic-pro-cs",
+"url": "https://cdn.shopify.com/s/files/1/0938/8546/4904/files/ato-pim-fd50a495e2104e66-9393ca7e04940c4e.webp"
+},
+{
+"id": "atomic/g-2026-atomic-pro-c3",
+"url": "https://cdn.shopify.com/s/files/1/0938/8546/4904/files/ato-pim-27be7df6c83b05b3-25b5a6d9afb75da5_21e8528c-6f57-4010-a00b-429ec9344328.webp"
+},
+{
+"id": "atomic/g-2026-atomic-pro-c1",
+"url": "https://cdn.shopify.com/s/files/1/0938/8546/4904/files/ato-pim-73a4a527619f755b-92273351ba8f01c3_7e18cb0b-727b-4c55-bc89-6b590291f93f.webp"
+},
+{
+"id": "salomon/g-2026-salomon-equipe-pro-skate-boa",
+"url": "https://cdn.dam.salomon.com/69fdabc2-e06e-422b-b7a1-b33d00abbaaa/L49282300%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "salomon/g-2026-salomon-s-lab-equipe-classic-boa",
+"url": "https://cdn.dam.salomon.com/db9db2db-b24b-4618-b127-b33d00abb6c9/L49281900%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "salomon/g-2026-salomon-equipe-race-classic-boa",
+"url": "https://cdn.dam.salomon.com/9c7fb104-4ee8-46e7-bf60-b33d00abba09/L49282200%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "salomon/g-2026-salomon-s-lab-equipe-skate-boa",
+"url": "https://cdn.dam.salomon.com/7d7b969a-589f-4284-b48a-b33d00abb5fd/L49281800%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "salomon/g-2026-salomon-equipe-race-skate-boa",
+"url": "https://cdn.dam.salomon.com/37798cb4-2496-4149-abed-b33d00abb99e/L49282000%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "salomon/g-2026-salomon-equipe-race-skiathlon-dp-boa",
+"url": "https://cdn.dam.salomon.com/c775148d-f3f2-4315-82f6-b33d00abb9b7/L49282100%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "salomon/g-2026-salomon-equipe-pro-classic-boa",
+"url": "https://cdn.dam.salomon.com/77494161-1d87-48a2-910b-b33d00abbbd2/L49282400%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "salomon/g-2026-salomon-escape-outrack",
+"url": "https://cdn.dam.salomon.com/d56a6a89-256d-4f95-b206-b2f4008dd75c/L47848900%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "salomon/g-2026-salomon-r-prolink",
+"url": "https://cdn.dam.salomon.com/8eb31a9e-63d5-43e9-9ba2-b2f401416d57/L47553400%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "salomon/g-2026-salomon-escape-plus",
+"url": "https://cdn.dam.salomon.com/be3708fc-d2a1-4a8d-ad2e-b2f800b198c1/L47266900%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "salomon/g-2026-salomon-rs8",
+"url": "https://cdn.dam.salomon.com/73f702e2-a3d8-472a-aa30-b2f800b19574/L47029800%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "salomon/g-2026-salomon-rc7",
+"url": "https://cdn.dam.salomon.com/07974bc7-5561-41d1-beb4-b2f800b1ac8c/L47030600%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "salomon/g-2026-salomon-rc8",
+"url": "https://cdn.dam.salomon.com/e81eed67-735e-4afc-88f7-b2f800b18ea9/L47030400%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "salomon/g-2026-salomon-rc9",
+"url": "https://cdn.dam.salomon.com/e8ee33cb-9559-42d6-b69e-b2f401419da0/L41159000%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "salomon/g-2026-salomon-r-skate",
+"url": "https://cdn.dam.salomon.com/01e3ae61-8b02-4b8a-9a78-b2f4014185eb/L47553500%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "salomon/g-2026-salomon-shift-equipe-classic",
+"url": "https://cdn.dam.salomon.com/b1e48ec9-a0b2-4ba5-9a5c-b39300e01f7a/L49283300%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "salomon/g-2026-salomon-shift-equipe-skate",
+"url": "https://cdn.dam.salomon.com/804adc7d-1cb5-4bb5-802d-b39300e01d96/L49283200%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "salomon/g-2026-salomon-prolink-shift-classic",
+"url": "https://cdn.dam.salomon.com/626867a4-e884-4e56-bc73-b4830086b3c8/L47646300%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "salomon/g-2026-salomon-prolink-shift-sk",
+"url": "https://cdn.dam.salomon.com/0575f39c-3605-4aae-b3e0-b48300855f5a/L47646200%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "salomon/g-2026-salomon-prolink-race-skate",
+"url": "https://cdn.dam.salomon.com/be043829-ecf0-4094-bd89-b48200df6a65/L41785500%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "salomon/g-2026-salomon-prolink-race-classic",
+"url": "https://cdn.dam.salomon.com/6ad9d4dd-6ec9-45e5-af4b-b48200e10413/L41785600%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "salomon/g-2026-salomon-prolink-pro-skate",
+"url": "https://cdn.dam.salomon.com/470bab30-c1ec-436c-821f-b48200dd8836/L40902900%2B/PNG-2000px-max-72dpi.png"
+},
+{
+"id": "rossignol/g-2025-rossignol-x-9-skate",
+"url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dw34449df8/images/large/RIO1030000_72DPI_01_v00.jpg?sw=2400"
+},
+{
+"id": "rossignol/g-2025-rossignol-x-9-classic",
+"url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dw89aa2dd9/images/large/RIO1040000_72DPI_01_v00.jpg?sw=2400"
+},
+{
+"id": "rossignol/g-2026-rossignol-x-ium-carbon-premium-skate-boa",
+"url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dw18a393d2/images/large/RIP0010000_72DPI_01_v00.jpg?sw=2400"
+},
+{
+"id": "rossignol/g-2025-rossignol-x-11-skate",
+"url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dw6b8daf6c/images/large/RIO1010000_72DPI_01_v00.jpg?sw=2400"
+},
+{
+"id": "rossignol/g-2026-rossignol-x-ium-wcs-skate-boa",
+"url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dw22842a5d/images/large/RIP0030000_72DPI_01_v00.jpg?sw=2400"
+},
+{
+"id": "rossignol/g-2026-rossignol-x-ium-carbon-premium-classic-boa",
+"url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dw154119be/images/large/RIP0020000_72DPI_01_v00.jpg?sw=2400"
+},
+{
+"id": "rossignol/g-2025-rossignol-x-11-classic",
+"url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dw6b40a4c0/images/large/RIO1020000_72DPI_01_v00.jpg?sw=2400"
+},
+{
+"id": "rossignol/g-2025-rossignol-x-7-skate",
+"url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dw0f3a6b89/images/large/RIOW010000_72DPI_01_v00.jpg?sw=2400"
+},
+{
+"id": "rossignol/g-2025-rossignol-x-7-classic",
+"url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dwfa4ecb1b/images/large/RIOW020000_72DPI_01_v00.jpg?sw=2400"
+},
+{
+"id": "rossignol/g-2025-rossignol-x-7-sc",
+"url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dw2157ff45/images/large/RIOW030000_72DPI_01_v00.jpg?sw=2400"
+},
+{
+"id": "rossignol/g-2025-rossignol-x-9-sc",
+"url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dwbe16b295/images/large/RIO1050000_72DPI_01_v00.jpg?sw=2400"
+},
+{
+"id": "rossignol/g-2026-rossignol-x-ium-wcs-classic-boa",
+"url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dwa1673f29/images/large/RIP0040000_72DPI_01_v00.jpg?sw=2400"
+},
+{
+"id": "rossignol/g-2023-rossignol-x-ium-classic",
+"url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dw9b62fcdd/images/large/RIM1800000_72DPI_01_v00.jpg?sw=2400"
+},
+{
+"id": "rossignol/g-2023-rossignol-x-6-classic",
+"url": "https://www.rossignol.com/dw/image/v2/BJJZ_PRD/on/demandware.static/-/Sites-rossignol-catalog/default/dw05951822/images/large/RIMW200_X_6_CLASSIC_RGB72DPI_01.jpg?sw=2400"
+},
+{
+"id": "madshus/g-2020-madshus-active-c",
+"url": "https://cdn.media.amplience.net/s/madshus/madshus_1920_active-c?w=2400&bg=white"
+},
+{
+"id": "madshus/g-2025-madshus-redline-classic",
+"url": "https://cdn.media.amplience.net/s/madshus/madshus_2425_redline-classic_MD240496?w=2400&bg=white"
+},
+{
+"id": "madshus/g-2025-madshus-redline-skate",
+"url": "https://cdn.media.amplience.net/s/madshus/madshus_2425_redline-skate_MD240495?w=2400&bg=white"
+},
+{
+"id": "madshus/g-2025-madshus-redline-skate-x",
+"url": "https://cdn.media.amplience.net/s/madshus/madshus_2425_redline-skate-x_MD240494?w=2400&bg=white"
+},
+{
+"id": "madshus/g-2025-madshus-race-pro-skate-boa",
+"url": "https://cdn.media.amplience.net/s/madshus/madshus_2425_BOA-skate_MD240497?w=2400&bg=white"
+},
+{
+"id": "madshus/g-2026-madshus-endurace-classic",
+"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_endurace-classic_N2204003?w=2400&bg=white"
+},
+{
+"id": "madshus/g-2026-madshus-endurace-skate",
+"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_endurace-skate_N2204004?w=2400&bg=white"
+},
+{
+"id": "madshus/g-2026-madshus-race-speed-classic",
+"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_race-speed-classic_N2104007?w=2400&bg=white"
+},
+{
+"id": "madshus/g-2026-madshus-race-speed-skate",
+"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_race-speed-skate_N2104005?w=2400&bg=white"
+},
+{
+"id": "madshus/g-2026-madshus-redline-boa-classic",
+"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_redline-boa-classic_MD251552?w=2400&bg=white"
+},
+{
+"id": "madshus/g-2026-madshus-redline-boa-skate",
+"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_redline-boa-skate_MD251553?w=2400&bg=white"
+},
+{
+"id": "madshus/g-2026-madshus-pulse-boa-classic",
+"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_pulse-boa-classic_MD251340?w=2400&bg=white"
+},
+{
+"id": "madshus/g-2026-madshus-pulse-boa-skate",
+"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_pulse-boa-skate_MD251342?w=2400&bg=white"
+},
+{
+"id": "madshus/g-2026-madshus-nordic",
+"url": "https://cdn.media.amplience.net/s/madshus/madshus_2526_nordic_N2204011?w=2400&bg=white"
+},
+{
+"id": "salomon/g-1985-salomon-sns",
+"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Old-sns-side.jpg/1920px-Old-sns-side.jpg"
+},
+{
+"id": "salomon/g-1985-salomon-sns-2",
+"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Old-sns-bottom.jpg/1920px-Old-sns-bottom.jpg"
+},
+{
+"id": "salomon/g-1990-salomon-sns-profil",
+"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/SNS_Profil-Bindung.JPG/1920px-SNS_Profil-Bindung.JPG"
+},
+{
+"id": "salomon/g-1996-salomon-sns-pilot",
+"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/SNS_Pilot-Binding.JPG/1920px-SNS_Pilot-Binding.JPG"
+},
+{
+"id": "salomon/g-2010-salomon-sns-pilot-equipe-skate",
+"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Salomon_SNS_Pilot_Equipe_Skate.jpg/1920px-Salomon_SNS_Pilot_Equipe_Skate.jpg"
+},
+{
+"id": "salomon/g-2010-salomon-sns-pilot",
+"url": "https://upload.wikimedia.org/wikipedia/commons/1/12/SNS_Pilot_binding.png"
+},
+{
+"id": "salomon/g-2015-salomon-sns-pilot",
+"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/SNS_Pilot.png/1920px-SNS_Pilot.png"
+},
+{
+"id": "salomon/g-2015-salomon-9-1-rs-energyzer",
+"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Salomon_9.1_RS_Energyzer.jpg/1920px-Salomon_9.1_RS_Energyzer.jpg"
+},
+{
+"id": "salomon/g-2015-salomon-s-lab-vitane-8-skate",
+"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Ski_boot_sns.jpg/1920px-Ski_boot_sns.jpg"
+},
+{
+"id": "salomon/g-2006-salomon-sns-2006",
+"url": "https://upload.wikimedia.org/wikipedia/commons/6/60/XC_Salomon_binding_2006.jpg"
+},
+{
+"id": "atomic/g-2012-atomic-sns-propulse-rc",
+"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Atomic_%27SNS_Propulse_RC%27_bindning_001.tiff/lossless-page1-1920px-Atomic_%27SNS_Propulse_RC%27_bindning_001.tiff.png"
+},
+{
+"id": "atomic/g-2013-atomic-sport-classic",
+"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Atomic_%27Sport_Classic%27_001.tiff/lossless-page1-1280px-Atomic_%27Sport_Classic%27_001.tiff.png"
+},
+{
+"id": "salomon/2009-salomon-equipe-rc-classic",
+"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Salomon_%27Equipe_RC_Classic%27.jpg/1920px-Salomon_%27Equipe_RC_Classic%27.jpg"
+},
+{
+"id": "salomon/2013-salomon-equipe-rc-skin",
+"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Salomon_%27Equipe_RC_Skin%27_001.jpg/1920px-Salomon_%27Equipe_RC_Skin%27_001.jpg"
+},
+{
+"id": "salomon/2016-salomon-equipe-rs-skate",
+"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Salomon_Equipe_RS.jpg/1920px-Salomon_Equipe_RS.jpg"
 }
 ]
