@@ -44,12 +44,12 @@ a{color:inherit}
 .fade.l{left:0;background:linear-gradient(90deg,#fff,rgba(255,255,255,0))}
 .fade.r{right:0;background:linear-gradient(270deg,#fff,rgba(255,255,255,0))}
 .hint{text-align:center;font-size:12px;color:var(--mut);margin-top:8px}
-.rrow{display:flex;align-items:center;gap:8px;margin-top:22px;padding-left:24px}
-.rrow .ruler{flex:1;margin-top:0;min-width:0}
-.rrow .pill{flex:none;position:relative;z-index:3}
+.rrow{position:relative;margin-top:22px}
+.rrow .ruler{margin-top:0}
+.rrow .pill{position:absolute;left:24px;top:50%;transform:translateY(-70%);z-index:3;box-shadow:0 0 0 12px #fff}
 .ruler.dim .needle{opacity:0}
 .ruler.dim .track{opacity:.55}
-@media (max-width:760px){.rrow{padding-left:16px}}
+@media (max-width:760px){.rrow .pill{left:16px}}
 .pill.sm{font-size:14px;padding:10px 18px}
 .bh{padding:28px 0 0}
 .bh .ev{height:auto;font-size:15px;color:var(--mut)}
@@ -85,7 +85,7 @@ a{color:inherit}
 .card:hover .yb,.card:focus-visible .yb{opacity:1}
 .card.far{opacity:.45}
 .card:focus-visible{outline:2px solid #000;outline-offset:2px}
-.empty{text-align:center;color:var(--mut);padding:40px}
+.empty{flex:1;text-align:center;color:var(--mut);padding:40px;display:flex;align-items:center;justify-content:center;gap:12px}
 
 /* ---------- lightbox ---------- */
 .lb{position:fixed;inset:0;background:#fff;z-index:50;display:none;grid-template-columns:1fr 400px}
@@ -278,7 +278,6 @@ function layout(force){
   else{
     const near=base.sort((a,b)=>Math.abs(a.yn-Y)-Math.abs(b.yn-Y)||a.yn-b.yn||a.i-b.i);
     items=near.filter(x=>Math.abs(x.yn-Y)<=2);
-    if(items.length<12)items=near.slice(0,12);
   }
   history.replaceState(null,'',allTime?'#all':'#'+Math.round(Y));
   const key=allTime+brand+'|'+ncols()+'|'+items.map(x=>x.i).join(',');
@@ -292,7 +291,14 @@ function layout(force){
     let k=0;for(let i=1;i<n;i++)if(hs[i]<hs[k]-.05)k=i;
     cols[k].append(card(x));hs[k]+=r+.08;
   }
-  if(!items.length){const e=document.createElement('div');e.className='empty';e.textContent='Пусто';grid.append(e)}
+  if(!items.length){
+    const e=document.createElement('div');e.className='empty';grid.textContent='';grid.append(e);
+    const pool=all.filter(x=>!x.dead&&(brand==='all'||x.b===brand));
+    if(!pool.length){e.textContent='Пусто';return}
+    const ne=pool.reduce((a,x)=>Math.abs(x.yn-Y)<Math.abs(a.yn-Y)?x:a);const ny=Math.round(ne.yn);
+    e.append('Материалов за эти годы пока нет. Ближайшие — ');
+    const b=document.createElement('button');b.className='pill sm';b.textContent=ny;b.onclick=()=>{setY(ny);layout()};e.append(b);
+  }
 }
 let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(()=>{buildRuler();setY(Y,true);layout(true)},150)});
 
