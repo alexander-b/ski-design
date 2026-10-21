@@ -5,34 +5,9 @@
 "HTTP Error 403: Forbidden"
 ],
 [
-"c/c4-6",
-"https://thumbs.worthpoint.com/zoom/images1/1/0311/04/salomon-slab-carbon-skate-xc-ski-boot_1_ac85a8d72bb41af89d8bc259c49e81c9.jpg",
-"HTTP Error 403: Forbidden"
-],
-[
-"c/c4-12",
-"https://thumbs.worthpoint.com/zoom/images4/1/0212/11/salomon-pro-skate-classic-combi-sns_1_0926f1e57f0e1a00b4f34a66176cd7a0.jpg",
-"HTTP Error 403: Forbidden"
-],
-[
-"c/c4-14",
-"https://thumbs.worthpoint.com/zoom/images1/1/0212/01/salomon-slab-pro-carbon-skate-xc-ski_1_ce27649dd084381605fb9f8a34804755.jpg",
-"HTTP Error 403: Forbidden"
-],
-[
-"salomon/2013-salomon-s-lab-equipe-10-classic-cold",
-"https://web.archive.org/web/2013id_/http://www.salomon.com/medias/products/product3/326844.jpg",
-"HTTP Error 404: NOT FOUND"
-],
-[
 "salomon/g-2013-salomon-s-lab-skiathlon",
 "https://web.archive.org/web/2013id_/http://www.salomon.com/medias/products/product3/126540.jpg",
 "HTTP Error 404: NOT FOUND"
-],
-[
-"c/c4-22",
-"http://c.anibis.ch/big/6984503580.jpg",
-"HTTP Error 404: Not Found"
 ],
 [
 "salomon/g-2011-salomon-s-lab-skate-pro",
@@ -45,13 +20,18 @@
 "HTTP Error 404: NOT FOUND"
 ],
 [
-"salomon/g-2013-salomon-s-lab-classic",
-"https://web.archive.org/web/2013id_/http://www.salomon.com/medias/products/product3/325711.jpg",
+"salomon/g-2013-salomon-sns-profil-equipe-classic",
+"https://web.archive.org/web/2013id_/http://www.salomon.com/medias/products/product3/786121.jpg",
 "HTTP Error 404: NOT FOUND"
 ],
 [
-"salomon/g-2013-salomon-sns-profil-equipe-classic",
-"https://web.archive.org/web/2013id_/http://www.salomon.com/medias/products/product3/786121.jpg",
+"salomon/2013-salomon-s-lab-equipe-10-classic-cold",
+"https://web.archive.org/web/2013id_/http://www.salomon.com/medias/products/product3/326844.jpg",
+"HTTP Error 404: NOT FOUND"
+],
+[
+"salomon/g-2013-salomon-s-lab-classic",
+"https://web.archive.org/web/2013id_/http://www.salomon.com/medias/products/product3/325711.jpg",
 "HTTP Error 404: NOT FOUND"
 ]
 ]
